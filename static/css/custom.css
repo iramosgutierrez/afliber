@@ -1,0 +1,63 @@
+html, body {
+    height: 100%
+}
+
+pre {
+    text-align: left;
+}
+
+.navbar {
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    padding: 0;
+}
+
+.fixed-top {
+    border-width: 1px;
+}
+
+.navbar-icon {
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+}
+
+.navbar-default {
+    border-color: #e7e7e7;
+    background-color: #f8f8f8;
+}
+
+.carousel-caption h1 {
+    font-family: "Montserrat";
+    font-size: 4rem;
+    font-weight: bold;
+    color: #212529;
+}
+
+#carousel-img {
+    opacity: 50%;
+
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #212529;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #212529;
+}
+
