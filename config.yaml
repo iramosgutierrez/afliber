@@ -1,0 +1,52 @@
+baseURL: http://example.com/
+languageCode: en-us
+title: Minimal
+theme: minimal
+disqusShortname: username
+googleAnalytics: ''
+params:
+  accent: red
+  author: Calin Tataru
+  backgroundColor: white
+  description: Personal blog theme powered by Hugo
+  font: Raleway
+  githubUsername: '#'
+  highlight: yes
+  highlightLanguages:
+    - go
+    - haskell
+    - kotlin
+    - scala
+    - swift
+  highlightStyle: default
+  showBorder: yes
+menu:
+  icon:
+    - name: fas fa-envelope
+      url: mailto:me@example.com
+      weight: 1
+    - name: fab fa-github
+      url: https://github.com/username/
+      weight: 2
+    - name: fab fa-twitter
+      url: https://twitter.com/username/
+      weight: 3
+    - name: fab fa-linkedin
+      url: https://www.linkedin.com/in/username/
+      weight: 4
+    - name: fab fa-stack-overflow
+      url: https://www.stackoverflow.com/username/
+      weight: 5
+  main:
+    - name: Home
+      url: /
+      weight: 1
+    - name: About
+      url: /about/
+      weight: 2
+    - name: Posts
+      url: /post/
+      weight: 3
+    - name: Projects
+      url: /project/
+      weight: 4
