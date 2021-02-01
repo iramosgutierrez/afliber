@@ -1,23 +1,15 @@
 ---
-title: "Usage"
+title: "How to use the AFLIBER data in R"
 highlightjs: true
 ---
 
-# This is how to use the data in AFLIBER using R
 
 ```{r floraiberica}
 
-for(i in 1:10) {
-    print(i)
-}
-plot(1:10, rnorm(10))
+afliber_dist <- read.csv("../database/AFLIBER_Distributions.csv")
+print(dim(afliber_dist))
+print(head(afliber_dist))
 
 ```
 
-```{r cwd}
 
-print(getwd())
-
-```
-
-<img src="logo.png" alt="no image">

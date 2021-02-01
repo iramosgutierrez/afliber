@@ -1,63 +1,52 @@
-html, body {
-    height: 100%
-}
-
 pre {
     text-align: left;
+}
+
+.active {
+    color: var(--accent) !important;
+}
+
+.main-img {
+    width: 80%;
+    margin: auto
+}
+
+.intro {
+    text-align: center;
+    transform: none;
+}
+
+.dropdown-menu {
+    background-color: #f8f8f8;
 }
 
 .navbar {
     min-height: 50px;
     margin-bottom: 20px;
     border: 1px solid transparent;
-    padding: 0;
+    border-top: var(--border-width) solid var(--accent);
 }
 
 .fixed-top {
-    border-width: 1px;
+    border-color: var(--accent);
 }
 
-.navbar-icon {
+.navbar-light {
+    background-color: #f8f8f8;
+}
+
+.nav-link {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+.navbar-item, .navbar-icon {
     padding-left: 0.7em;
     padding-right: 0.7em;
 }
 
-.navbar-default {
-    border-color: #e7e7e7;
-    background-color: #f8f8f8;
-}
-
-.carousel-caption h1 {
-    font-family: "Montserrat";
-    font-size: 4rem;
-    font-weight: bold;
-    color: #212529;
-}
-
-#carousel-img {
-    opacity: 50%;
-
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  height: 100px;
-  width: 100px;
-  outline: black;
-  background-size: 100%, 100%;
-  background-image: none;
-}
-
-.carousel-control-next-icon:after
-{
-  content: '>';
-  font-size: 55px;
-  color: #212529;
-}
-
-.carousel-control-prev-icon:after {
-  content: '<';
-  font-size: 55px;
-  color: #212529;
+a:link, a:visited {
+    text-decoration: none;
+    color: #808080
 }
 

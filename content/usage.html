@@ -1,5 +1,5 @@
 ---
-title: "Usage"
+title: "How to use the AFLIBER data in R"
 highlightjs: true
 ---
 
@@ -8,24 +8,14 @@ highlightjs: true
 <script src="/rmarkdown-libs/anchor-sections/anchor-sections.js"></script>
 
 
-<div id="this-is-how-to-use-the-data-in-afliber-using-r" class="section level1">
-<h1>This is how to use the data in AFLIBER using R</h1>
-<pre class="r"><code>for(i in 1:10) {
-    print(i)
-}</code></pre>
-<pre><code>## [1] 1
-## [1] 2
-## [1] 3
-## [1] 4
-## [1] 5
-## [1] 6
-## [1] 7
-## [1] 8
-## [1] 9
-## [1] 10</code></pre>
-<pre class="r"><code>plot(1:10, rnorm(10))</code></pre>
-<p><img src="/usage_files/figure-html/floraiberica-1.png" width="672" /></p>
-<pre class="r"><code>print(getwd())</code></pre>
-<pre><code>## [1] &quot;/mnt/StorageHDD/Research/CollaborativeWork/FloraIberica/AFLIBER/content&quot;</code></pre>
-<p><img src="logo.png" alt="no image"></p>
-</div>
+<pre class="r"><code>afliber_dist &lt;- read.csv(&quot;../database/AFLIBER_Distributions.csv&quot;)
+print(dim(afliber_dist))</code></pre>
+<pre><code>## [1] 1824549       3</code></pre>
+<pre class="r"><code>print(head(afliber_dist))</code></pre>
+<pre><code>##        Taxon UTM.cell References
+## 1 Abies alba  30TXM89        999
+## 2 Abies alba  30TXM99        999
+## 3 Abies alba  30TXN27          6
+## 4 Abies alba  30TXN32        999
+## 5 Abies alba  30TXN33        999
+## 6 Abies alba  30TXN34    114_999</code></pre>

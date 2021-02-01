@@ -1,0 +1,17 @@
+---
+title: "Methods used in gathering the AFLIBER database"
+highlightjs: true
+---
+
+### Taxonomic treatment
+
+babababa
+
+### Endemism
+
+lalallalal
+
+### Distribution
+
+tatatatatt
+

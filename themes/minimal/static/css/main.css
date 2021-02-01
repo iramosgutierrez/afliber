@@ -21,33 +21,20 @@ img {
 }
 
 /* Homepage */
-
-.intro {
-    transform: translateY(22vh);
-}
-
 .intro > h1 {
     color: #212121;
-    font-size: 12vh;
+    font-size: 6vh;
 }
 
 .intro > h2 {
     color: #757575;
-    font-size: 3vmin;
+    font-size: 4vh;
 }
 
 /* Page content */
 
 .content {
     padding-top: 20px;
-}
-
-/* Profile picture */
-
-.profile {
-    width: 10vh;
-    height: 10vh;
-    border-radius: 50%;
 }
 
 /* Colored links */
@@ -67,6 +54,8 @@ a:hover {
 /* Copyright message */
 
 .copyright {
+    font-size: 9px;
+    text-align: center;
     margin: 15px 0;
 }
 
@@ -87,20 +76,7 @@ a:hover {
 }
 
 .item-tag {
-    background-color: var(--accent);
-}
-
-/* Navigation icons */
-
-.navbar-icon {
-    font-size: 125%;
-    display: inline-block !important;
-}
-
-/* Colored borders at top/bottom of page */
-
-.navbar.navbar-default {
-    border-top: var(--border-width) solid var(--accent);
+    background-color: #808080;
 }
 
 footer {
