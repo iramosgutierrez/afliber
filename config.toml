@@ -42,7 +42,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown", "_files$", "_cache$"]
 
     [[menu.main]]
     identifier = "about_project"
-    url = "/about/project/"
+    url = "/about/afliber/"
     name = "AFLIBER database"
     weight = 1
     parent = "about_main"
@@ -80,12 +80,12 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown", "_files$", "_cache$"]
 # The list of available icons can be found at http://fontawesome.io/icons.
 
 [[menu.icon]]
-    url = "mailto:me@example.com"
+    url = "/mailform/"
     name = "fas fa-envelope"
     weight = 1
 
 [[menu.icon]]
-    url = "https://github.com/username/"
+    url = "https://github.com/iramosgutierrez/AFLIBER"
     name = "fab fa-github"
     weight = 2
 
