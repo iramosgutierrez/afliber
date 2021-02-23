@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/project/project1/</loc>
+  </url>
+  
+  <url>
+    <loc>/project/project2/</loc>
+  </url>
+  
+  <url>
+    <loc>/project/project3/</loc>
+  </url>
+  
+  <url>
+    <loc>/project/project4/</loc>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/updates/2020/12/01/hello-r-markdown/</loc>
+    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/plot/</loc>
+    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/r/</loc>
+    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/r-markdown/</loc>
+    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/regression/</loc>
+    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/updates/</loc>
+    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/updates/2014/09/28/creating-a-new-theme/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/go/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/golang/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/hugo/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/themes/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/updates/2014/04/02/hugo-template-primer/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/updates/2014/04/02/getting-started-with-hugo/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/template/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/jekyll/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/updates/2014/03/10/migrate-from-jekyll/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/static-site-generator/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+  </url>
+  
+  <url>
+    <loc>/about/afliber/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/bootstrap/</loc>
+  </url>
+  
+  <url>
+    <loc>/mailform/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/css/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/highlight-js/</loc>
+  </url>
+  
+  <url>
+    <loc>/usage/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/html/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/js/</loc>
+  </url>
+  
+  <url>
+    <loc>/about/team/</loc>
+  </url>
+  
+  <url>
+    <loc>/methods/</loc>
+  </url>
+  
+  <url>
+    <loc>/project/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/responsive/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/syntax-highlighting/</loc>
+  </url>
+  
+</urlset>

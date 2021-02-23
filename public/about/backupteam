@@ -1,0 +1,167 @@
+{{ partial "header.html" . }}
+
+<link rel="stylesheet" href="/css/team.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="team-boxed">
+    <div class="container">
+    <div class="row people">
+     <div class="col-md-6 d-flex col-lg-4 item">
+      <div class="box"><img class="rounded-circle team-img" src="/team/Ignacio_Ramos-Gutierrez.jpg">
+      <h4 class="name">Ignacio Ramos-Gutierrez</h4>
+      <p class="title">Universidad Autonoma de Madrid</p>
+      <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+      <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+      </div>
+     </div>
+     <div class="col-md-6 d-flex col-lg-4 item">
+      <div class="box"><img class="rounded-circle team-img" src="/team/Juan_Carlos_Moreno.jpg">
+      <h4 class="name">Juan Carlos Moreno</h4>
+      <p class="title">Universidad Autonoma de Madrid</p>
+      <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+      <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+      </div>
+      </div>
+     <div class="col-md-6 d-flex col-lg-4 item">
+      <div class="box"><img class="rounded-circle team-img" src="/team/Miguel_Angel_Rodriguez.jpg">
+      <h4 class="name">Miguel Angel Rodríguez</h4>
+      <p class="title">Universidad de Alcala</p>
+      <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+      <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+      </div>
+      </div>
+    </div>
+    <div class="row people">
+     <div class="col-md-6 col-lg-4 item">
+      <div class="box"><img class="rounded-circle team-img" src="/team/Ignacio_Ramos-Gutierrez.jpg">
+      <h4 class="name">Ignacio Ramos-Gutierrez</h4>
+      <p class="title">Universidad Autonoma de Madrid</p>
+      <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+      <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+      </div>
+     </div>
+     <div class="col-md-6 col-lg-4 item">
+      <div class="box"><img class="rounded-circle team-img" src="/team/Juan_Carlos_Moreno.jpg">
+      <h4 class="name">Juan Carlos Moreno</h4>
+      <p class="title">Universidad Autonoma de Madrid</p>
+      <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+      <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+      </div>
+      </div>
+     <div class="col-md-6 col-lg-4 item">
+      <div class="box"><img class="rounded-circle team-img" src="/team/Miguel_Angel_Rodriguez.jpg">
+      <h4 class="name">Miguel Angel Rodríguez</h4>
+      <p class="title">Universidad de Alcala</p>
+      <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+      <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+      </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+</div>
+<!--
+Adapted from https://bootsnipp.com/snippets/92D5l
+
+
+<div class="row">
+ <div class="heading-title text-center">
+<p class="p-top-30 half-txt"> </p>
+</div>
+
+<div class="col-md-4 col-sm-4">
+<div class="team-member">
+<div class="team-img">
+<img src="/team/Ignacio_Ramos-Gutierrez.jpg" alt="team member" class="img-responsive">
+</div>
+<div class="team-hover">
+<div class="desk">
+<h4>Hi There !</h4>
+<p>I love to introduce myself as a hardcore Web Designer.</p>
+</div>
+<div class="s-link">
+<a href="#"><i class="fa fa-facebook"></i></a>
+<a href="#"><i class="fa fa-twitter"></i></a>
+<a href="#"><i class="fa fa-google-plus"></i></a>
+</div>
+</div>
+</div>
+<div class="team-title">
+<h5>Ignacio Ramos-Gutierrez</h5>
+<span>Universidad Autonoma de Madrid</span>
+</div>
+</div>
+<div class="col-md-4 col-sm-4">
+<div class="team-member">
+<div class="team-img">
+<img src="/team/Juan_Carlos_Moreno.jpg" alt="team member" class="img-responsive">
+</div>
+<div class="team-hover">
+<div class="desk">
+<h4>I love to design</h4>
+<p>I love to introduce myself as a hardcore Web Designer.</p>
+</div>
+<div class="s-link">
+<a href="#"><i class="fa fa-facebook"></i></a>
+<a href="#"><i class="fa fa-twitter"></i></a>
+<a href="#"><i class="fa fa-google-plus"></i></a>
+</div>
+</div>
+</div>
+<div class="team-title">
+<h5>Juan Carlos Moreno</h5>
+<span>Universidad Autónoma de Madrid</span>
+</div>
+</div>
+<div class="col-md-4 col-sm-4">
+<div class="team-member">
+<div class="team-img">
+<img src="/team/Rafael_Molina-Venegas.jpg" alt="team member" class="img-responsive">
+</div>
+<div class="team-hover">
+<div class="desk">
+<h4>Hello World</h4>
+<p>I love to introduce myself as a hardcore Web Designer.</p>
+</div>
+<div class="s-link">
+<a href="#"><i class="fa fa-facebook"></i></a>
+<a href="#"><i class="fa fa-twitter"></i></a>
+<a href="#"><i class="fa fa-google-plus"></i></a>
+</div>
+</div>
+</div>
+<div class="team-title">
+<h5>Rafael Molina-Venegas</h5>
+<span>HR Manager</span>
+</div>
+</div>
+<div class="col-md-4 col-sm-4">
+<div class="team-member">
+<div class="team-img">
+<img src="/team/Miguel_Angel_Rodriguez.jpg" alt="team member" class="img-responsive">
+</div>
+<div class="team-hover">
+<div class="desk">
+<h4>Hi There !</h4>
+<p>I love to introduce myself as a hardcore Web Designer.</p>
+</div>
+<div class="s-link">
+<a href="#"><i class="fa fa-facebook"></i></a>
+<a href="#"><i class="fa fa-twitter"></i></a>
+<a href="#"><i class="fa fa-google-plus"></i></a>
+</div>
+</div>
+</div>
+<div class="team-title">
+<h5>Miguel Angel Rodríguez</h5>
+<span>Universidad de Alcala</span>
+</div>
+</div>
+
+</div>
+
+</div>
+-->
+
+{{ partial "footer" . }}

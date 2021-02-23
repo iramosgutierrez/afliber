@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on AFLIBER</title>
+    <link>/about/</link>
+    <description>Recent content in Abouts on AFLIBER</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AFLIBER Database</title>
+      <link>/about/afliber/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/afliber/</guid>
+      <description>The AFLIBER database is an effort to akakannc jajsj</description>
+    </item>
+    
+    <item>
+      <title>Meet our team</title>
+      <link>/about/team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/team/</guid>
+      <description>Ignacio Ramos-Gutierrez Universidad Autonoma de Madrid
+Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa.       Juan Carlos Moreno Universidad Autonoma de Madrid
+Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id.</description>
+    </item>
+    
+  </channel>
+</rss>

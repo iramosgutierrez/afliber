@@ -70,7 +70,7 @@
                 {{ if .Site.Menus.icon }}
                     <ul class="navbar-nav">
                         {{ range sort .Site.Menus.icon }}
-                            <li class="navbar-icon"><a href="{{ .URL }}"><i class="{{ .Name }}"></i></a></li>
+                        <li class="navbar-icon"><a href="{{ .URL }}"><i class="{{ .Name }}" title="{{ .Title }}"></i></a></li>
                         {{ end }}
                     </ul>
                 {{ end }}

@@ -82,12 +82,20 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown", "_files$", "_cache$"]
 [[menu.icon]]
     url = "/mailform/"
     name = "fas fa-envelope"
+    title = "Contact us"
     weight = 1
 
 [[menu.icon]]
     url = "https://github.com/iramosgutierrez/AFLIBER"
     name = "fab fa-github"
+    title = "AFLIBER repo"
     weight = 2
+
+[[menu.icon]]
+    url = "/download_data/"
+    name = "fa fa-download"
+    title = "Download"
+    weight = 3
 
 [permalinks]
     updates = "/updates/:year/:month/:day/:slug/"
