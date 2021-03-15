@@ -136,6 +136,10 @@
   </url>
   
   <url>
+    <loc>/download_data/</loc>
+  </url>
+  
+  <url>
     <loc>/tags/bootstrap/</loc>
   </url>
   
@@ -145,6 +149,10 @@
   
   <url>
     <loc>/tags/css/</loc>
+  </url>
+  
+  <url>
+    <loc>/restricted_access/</loc>
   </url>
   
   <url>

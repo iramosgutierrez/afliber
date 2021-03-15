@@ -118,12 +118,34 @@ Follow the following steps:
     </item>
     
     <item>
+      <title>AFLIBER Download</title>
+      <link>/download_data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/download_data/</guid>
+      <description>    h2 { display:none }  AFLIBER Distribution dataset The AFLIBER distribution dataset contains information on the distribution of the iberian native flora.
+ AFLIBER Distributions --  AFLIBER Checklist
+ AFLIBER Checklist The AFLIBER checklist contains taxonomic information relative to each taxa contained in the AFLIBER distribution dataset.
+ AFLIBER Checklist --  AFLIBER Checklist
+ </description>
+    </item>
+    
+    <item>
       <title>Contact us</title>
       <link>/mailform/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/mailform/</guid>
-      <description>   Email address  Select a reason Suggestions Issues Cooperating in AFLIBER Other   Subject  Your message   Submit   </description>
+      <description>    Note:  If you need to attach documents, please send an email directly to atlasfloraiberica@gmail.com Email address  Select a reason Suggestions Issues Cooperating in AFLIBER Other   Subject  Your message   Submit   </description>
+    </item>
+    
+    <item>
+      <title>Data currently unavailable</title>
+      <link>/restricted_access/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/restricted_access/</guid>
+      <description>Please check later, as we await publication of the database in a scientific journal.</description>
     </item>
     
     <item>
@@ -132,7 +154,7 @@ Follow the following steps:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/usage/</guid>
-      <description>   afliber_dist &amp;lt;- read.csv(&amp;quot;../database/AFLIBER_Distributions.csv&amp;quot;) print(dim(afliber_dist)) ## [1] 1824549 3 print(head(afliber_dist)) ## Taxon UTM.cell References ## 1 Abies alba 30TXM89 999 ## 2 Abies alba 30TXM99 999 ## 3 Abies alba 30TXN27 6 ## 4 Abies alba 30TXN32 999 ## 5 Abies alba 30TXN33 999 ## 6 Abies alba 30TXN34 114_999 </description>
+      <description>   afliber_dist &amp;lt;- read.csv(&amp;quot;../data_restricted/AFLIBER_Distributions.csv&amp;quot;) print(dim(afliber_dist)) ## [1] 1824549 3 print(head(afliber_dist)) ## Taxon UTM.cell References ## 1 Abies alba 30TXM89 999 ## 2 Abies alba 30TXM99 999 ## 3 Abies alba 30TXN27 6 ## 4 Abies alba 30TXN32 999 ## 5 Abies alba 30TXN33 999 ## 6 Abies alba 30TXN34 114_999 </description>
     </item>
     
     <item>
@@ -142,8 +164,14 @@ Follow the following steps:
       
       <guid>/about/team/</guid>
       <description>Ignacio Ramos-Gutierrez Universidad Autonoma de Madrid
-Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa.       Juan Carlos Moreno Universidad Autonoma de Madrid
-Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id.</description>
+PhD Student       Juan Carlos Moreno Universidad Autonoma de Madrid
+Professor and Senior Botanist
+      Rafael Molina-Venegas Universidad de Alcala
+Postdoctoral researcher        Miguel Angel Rodríguez Universidad de Alcala
+Professor
+      Herlander Lima Universidad de Alcalá
+Phd Student
+    Llorenç Sáez Universitat Autonoma de Barcelona</description>
     </item>
     
     <item>

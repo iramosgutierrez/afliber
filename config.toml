@@ -24,9 +24,9 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown", "_files$", "_cache$"]
     js = ["/js/custom.js"]
 
     [params.logo]
-        url = "logo.png"
-        width = 40
-        height = 40
+        url = "nologo.png"
+        width = 50
+        height = 50
         alt = "logo"
 
 [[menu.main]]
@@ -70,30 +70,25 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown", "_files$", "_cache$"]
     name = "How to"
     weight = 5
 
-[[menu.main]]
-    url = "/project/"
-    name = "Projects"
-    weight = 6
-
 # Social icons to be shown on the right-hand side of the navigation bar.
 # The "name" field should match the name of the icon in Font Awesome.
 # The list of available icons can be found at http://fontawesome.io/icons.
 
 [[menu.icon]]
     url = "/mailform/"
-    name = "fas fa-envelope"
+    name = "fas fa-lg fa-envelope"
     title = "Contact us"
     weight = 1
 
 [[menu.icon]]
     url = "https://github.com/iramosgutierrez/AFLIBER"
-    name = "fab fa-github"
+    name = "fab fa-lg fa-github"
     title = "AFLIBER repo"
     weight = 2
 
 [[menu.icon]]
     url = "/download_data/"
-    name = "fa fa-download"
+    name = "fa fa-lg fa-download"
     title = "Download"
     weight = 3
 

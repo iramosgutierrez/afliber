@@ -65,4 +65,7 @@ a:link, a:visited {
   box-shadow: inset 0 0.5px 0.5px var(--accent), 0 0 0.5px var(--accent);
 }
 
+.hasAnchor:hover a.anchor-section {
+    visibility: hidden;
+}
 
