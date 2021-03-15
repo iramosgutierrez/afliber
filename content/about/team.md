@@ -19,9 +19,8 @@ title: Meet our team
                     <p class="title">Universidad Autonoma de Madrid</p>
                     <p class="description">PhD Student </p>
                     <div class="social">
-                        <a href="#"><i class="ai ai-google-scholar-square ai-2x"></i></a>
-                        <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
-                        <a href="#"><i class="ai ai-researchgate-square ai-2x"></i></a>
+                        <a href="https://twitter.com/iramosgutierrez"><i class="fa fa-twitter-square fa-2x"></i></a>
+                        <a href="https://www.researchgate.net/profile/Ignacio-Ramos-Gutierrez"><i class="ai ai-researchgate-square ai-2x"></i></a>
                     </div>
                 </div>
             </div>
@@ -32,9 +31,8 @@ title: Meet our team
                     <p class="title">Universidad Autonoma de Madrid</p>
                     <p class="description">Professor and Senior Botanist</p>
                     <div class="social">
-                        <a href="#"><i class="ai ai-google-scholar-square ai-2x"></i></a>
-                        <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
-                        <a href="#"><i class="ai ai-researchgate-square ai-2x"></i></a>
+                        <a href="https://scholar.google.es/citations?user=TJsspLMAAAAJ&hl=es"><i class="ai ai-google-scholar-square ai-2x"></i></a>
+                        <a href="https://www.researchgate.net/profile/Juan-Moreno-Saiz"><i class="ai ai-researchgate-square ai-2x"></i></a>
                     </div>
                 </div>
             </div>
@@ -45,9 +43,8 @@ title: Meet our team
                     <p class="title">Universidad de Alcala</p>
                     <p class="description"> Postdoctoral researcher </p>
                     <div class="social">
-                        <a href="#"><i class="ai ai-google-scholar-square ai-2x"></i></a>
-                        <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
-                        <a href="#"><i class="ai ai-researchgate-square ai-2x"></i></a>
+                        <a href="https://scholar.google.es/citations?user=V--Ll80AAAAJ&hl=es"><i class="ai ai-google-scholar-square ai-2x"></i></a>
+                        <a href="https://www.researchgate.net/profile/Rafael-Molina-Venegas"><i class="ai ai-researchgate-square ai-2x"></i></a>
                     </div>
                 </div>
             </div>
@@ -60,9 +57,8 @@ title: Meet our team
                     <p class="title">Universidad de Alcala</p>
                     <p class="description">Professor</p>
                     <div class="social">
-                        <a href="#"><i class="ai ai-google-scholar-square ai-2x"></i></a>
-                        <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
-                        <a href="#"><i class="ai ai-researchgate-square ai-2x"></i></a>
+                        <a href="https://scholar.google.com/citations?user=aPytFkAAAAAJ&hl=en"><i class="ai ai-google-scholar-square ai-2x"></i></a>
+                        <a href="https://www.researchgate.net/profile/Miguel-Rodriguez-91"><i class="ai ai-researchgate-square ai-2x"></i></a>
                     </div>
                 </div>
             </div>
