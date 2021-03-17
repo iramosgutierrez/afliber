@@ -1,3 +1,7 @@
+h2 {
+    text-align: center;
+}
+
 pre {
     text-align: left;
 }
@@ -17,6 +21,10 @@ pre {
 }
 
 .dropdown-menu {
+    background-color: #f8f8f8;
+}
+
+.dropdown-item:active {
     background-color: #f8f8f8;
 }
 

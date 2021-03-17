@@ -34,51 +34,52 @@
     <body>
         {{ partial "body-open" . }}
         <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-            <div class="navbar-header">
-                <a href="/">
-                    <img src="{{ .Site.Params.logo.url | relURL }}"
-                         width="{{ .Site.Params.logo.width }}"
-                         height="{{ .Site.Params.logo.height }}"
-                         alt="{{ .Site.Params.logo.alt }}">
-                </a>
-                <a class="navbar-brand" href="/">AFLIBER</a>
-            </div>
-            <button class="navbar-toggler" type ="button" data-target=".navbar-collapse" data-toggle="collapse">
-                 <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse">
-                {{ if .Site.Menus.main }}
-                    <ul class="navbar-nav mr-auto">
-                        {{ range sort .Site.Menus.main }}
-                            {{ if .HasChildren }}
-                                <li class="navbar-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="{{.URL}}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <span>{{ .Name }}</span>
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        {{ range .Children }}
-                                            <a class="dropdown-item" href="{{.URL}}">{{.Name}}</a>
-                                        {{end}}
-                                    </div>
-                                </li>
-                            {{ else }}
-                                <li class="navbar-item"><a href="{{ .URL }}">{{ .Name }}</a></li>
-                            {{end}}
-                        {{ end }}
-                    </ul>
-                {{ end }}
-                {{ if .Site.Menus.icon }}
-                    <ul class="navbar-nav">
-                        {{ range sort .Site.Menus.icon }}
-                            {{ if in .Name "github" }}
-                                <li class="navbar-icon"><a href="{{ .URL }}" target="_blank"><i class="{{ .Name }}" title="{{ .Title }}"></i></a></li>
-                            {{ else }}
-                                <li class="navbar-icon"><a href="{{ .URL }}"><i class="{{ .Name }}" title="{{ .Title }}"></i></a></li>
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="/">
+                        <img src="{{ .Site.Params.logo.url | relURL }}"
+                             width="{{ .Site.Params.logo.width }}"
+                             height="{{ .Site.Params.logo.height }}"
+                             alt="{{ .Site.Params.logo.alt }}">
+                    </a>
+                    <a class="navbar-brand" href="/">AFLIBER</a>
+                </div>
+                <button class="navbar-toggler" type ="button" data-target=".navbar-collapse" data-toggle="collapse">
+                     <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse">
+                    {{ if .Site.Menus.main }}
+                        <ul class="navbar-nav mr-auto">
+                            {{ range sort .Site.Menus.main }}
+                                {{ if .HasChildren }}
+                                    <li class="navbar-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="{{.URL}}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <span>{{ .Name }}</span>
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            {{ range .Children }}
+                                                <a class="dropdown-item" href="{{.URL}}">{{.Name}}</a>
+                                            {{end}}
+                                        </div>
+                                    </li>
+                                {{ else }}
+                                    <li class="navbar-item"><a href="{{ .URL }}">{{ .Name }}</a></li>
+                                {{end}}
                             {{ end }}
-                        {{ end }}
-                    </ul>
-                {{ end }}
+                        </ul>
+                    {{ end }}
+                    {{ if .Site.Menus.icon }}
+                        <ul class="navbar-nav">
+                            {{ range sort .Site.Menus.icon }}
+                                {{ if in .Name "github" }}
+                                    <li class="navbar-icon"><a href="{{ .URL }}" target="_blank"><i class="{{ .Name }}" title="{{ .Title }}"></i></a></li>
+                                {{ else }}
+                                    <li class="navbar-icon"><a href="{{ .URL }}"><i class="{{ .Name }}" title="{{ .Title }}"></i></a></li>
+                                {{ end }}
+                            {{ end }}
+                        </ul>
+                    {{ end }}
+                </div>
             </div>
         </nav>
 
-</script>

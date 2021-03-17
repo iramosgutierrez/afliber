@@ -24,7 +24,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown", "_files$", "_cache$"]
     js = ["/js/custom.js"]
 
     [params.logo]
-        url = "nologo.png"
+        url = "logo.png"
         width = 50
         height = 50
         alt = "logo"
@@ -69,6 +69,33 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown", "_files$", "_cache$"]
     url = "/usage/"
     name = "How to"
     weight = 5
+
+[[menu.main]]
+    identifier = "collaborate"
+    url = "/collaborate/"
+    name = "Collaborate"
+    weight = 6
+
+    [[menu.main]]
+    identifier = "collab_instructions"
+    url = "/collaborate/general_instructions/"
+    name = "General Instructions"
+    weight = 1
+    parent = "collaborate"
+
+    [[menu.main]]
+    identifier = "collab_specieslist"
+    url = "/collaborate/species_list/"
+    name = "Species List"
+    weight = 2
+    parent = "collaborate"
+    
+    [[menu.main]]
+    identifier = "collab_distrib"
+    url = "/collaborate/species_distrib/"
+    name = "Species Distribution"
+    weight = 3
+    parent = "collaborate"
 
 # Social icons to be shown on the right-hand side of the navigation bar.
 # The "name" field should match the name of the icon in Font Awesome.
