@@ -37,10 +37,6 @@
   </url>
   
   <url>
-    <loc>/about/</loc>
-  </url>
-  
-  <url>
     <loc>/about/afliber/</loc>
   </url>
   
@@ -53,11 +49,27 @@
   </url>
   
   <url>
+    <loc>/collaborate/species_distrib/</loc>
+  </url>
+  
+  <url>
+    <loc>/collaborate/species_list/</loc>
+  </url>
+  
+  <url>
+    <loc>/collaborate/</loc>
+  </url>
+  
+  <url>
     <loc>/mailform/</loc>
   </url>
   
   <url>
     <loc>/restricted_access/</loc>
+  </url>
+  
+  <url>
+    <loc>/collaborate/general_instructions/</loc>
   </url>
   
   <url>

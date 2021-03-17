@@ -17,21 +17,13 @@
     </item>
     
     <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again. Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content. Since websites are viewed far more often than they are edited, Hugo is designed to provide an optimal viewing experience for your website’s end users and an ideal writing experience for website authors.</description>
-    </item>
-    
-    <item>
       <title>AFLIBER Database</title>
       <link>/about/afliber/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/afliber/</guid>
-      <description>This section is under construction   AFLIBER is a comprehensive database connecting the up-to-date species list of the Iberian-Balearic vascular native flora with its matching occurrence records rescaled to a standard UTM 10-km grain resolution. Born as a datapaper, the objective of AFLIBER is to be a running atlas, in which new taxonomical and distributional information can be added and updated research can be used to correct potential mistakes.</description>
+      <description>AFLIBER is a comprehensive database connecting the up-to-date species list of the Iberian-Balearic vascular native flora with its matching occurrence records rescaled to a standard UTM 10-km grain resolution. Born as a datapaper (currently under review), the goal of AFLIBER is to be a running atlas, in which new taxonomical and distributional information can be added and updated.
+This project was performed under the funding of the Spanish Ministry of Science, Innovation and Universities through the Bioregions 2.</description>
     </item>
     
     <item>
@@ -45,6 +37,24 @@
  AFLIBER Checklist The AFLIBER checklist contains taxonomic information relative to each taxa contained in the AFLIBER distribution dataset.
  AFLIBER Checklist --  AFLIBER Checklist
  </description>
+    </item>
+    
+    <item>
+      <title>Collaborate on Species Distribution</title>
+      <link>/collaborate/species_distrib/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/collaborate/species_distrib/</guid>
+      <description> This section is still under construction   Add distributional data Remove incorrect distributional data </description>
+    </item>
+    
+    <item>
+      <title>Collaborate on Species List</title>
+      <link>/collaborate/species_list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/collaborate/species_list/</guid>
+      <description> This section is still under construction   To include a new species: Excel con info To remove an existing species: Excel con info To modify a species (name change, division or merging) </description>
     </item>
     
     <item>
@@ -63,6 +73,15 @@
       
       <guid>/restricted_access/</guid>
       <description>Please check later, as we await publication of the database in a scientific journal.</description>
+    </item>
+    
+    <item>
+      <title>General Instructions</title>
+      <link>/collaborate/general_instructions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/collaborate/general_instructions/</guid>
+      <description>To collaborate in the further versions of AFLIBER, please send an email to atlasfloraiberica@gmail.com attaching .csv or .xlsx files with your contributions. Note that, depending on the case, several documents may be needed (if you want a new species to appear, not only the taxonomic information should be provided, but also its related distributional information). Please consider to use the collaboration forms we provide to facilitate data homogenization, and formatting file titles with your name at the end.</description>
     </item>
     
     <item>
