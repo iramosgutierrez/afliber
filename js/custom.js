@@ -23,8 +23,11 @@ $(document).ready(function(){
 
     // Create active for selected nav-item
     var navItem = window.location.pathname;
-    if(navItem.length > 3){
+    // 9 is the length of repo folder /afliber/
+    if(navItem.length > 9){
         navItem = navItem.split("/")[2]
+    }else{
+        navItem = "./"
     }
     target = $('.navbar-item a[href*="' + navItem + '"]')[0];
     $(target).addClass('active');
