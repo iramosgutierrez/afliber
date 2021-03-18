@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AFLIBER</title>
+    <link>/</link>
+    <description>Recent content on AFLIBER</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AFLIBER example update</title>
+      <link>/updates/2020/03/15/afliber-example-update/</link>
+      <pubDate>Sun, 15 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/updates/2020/03/15/afliber-example-update/</guid>
+      <description>This is an example of an update.</description>
+    </item>
+    
+    <item>
+      <title>AFLIBER Database</title>
+      <link>/about/afliber/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/afliber/</guid>
+      <description>AFLIBER is a comprehensive database connecting the up-to-date species list of the Iberian-Balearic vascular native flora with its matching occurrence records rescaled to a standard UTM 10-km grain resolution. Born as a datapaper (currently under review), the goal of AFLIBER is to be a running atlas, in which new taxonomical and distributional information can be added and updated.
+This project was performed under the funding of the Spanish Ministry of Science, Innovation and Universities through the Bioregions 2.</description>
+    </item>
+    
+    <item>
+      <title>AFLIBER Download</title>
+      <link>/download_data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/download_data/</guid>
+      <description>    h2 { display:none }  AFLIBER Distribution dataset The AFLIBER distribution dataset contains information on the distribution of the iberian native flora.
+ AFLIBER Distributions --  AFLIBER Checklist
+ AFLIBER Checklist The AFLIBER checklist contains taxonomic information relative to each taxa contained in the AFLIBER distribution dataset.
+ AFLIBER Checklist --  AFLIBER Checklist
+ </description>
+    </item>
+    
+    <item>
+      <title>Collaborate on Species Distribution</title>
+      <link>/collaborate/species_distrib/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/collaborate/species_distrib/</guid>
+      <description> This section is still under construction   Add distributional data Remove incorrect distributional data </description>
+    </item>
+    
+    <item>
+      <title>Collaborate on Species List</title>
+      <link>/collaborate/species_list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/collaborate/species_list/</guid>
+      <description> This section is still under construction   To include a new species: Excel con info To remove an existing species: Excel con info To modify a species (name change, division or merging) </description>
+    </item>
+    
+    <item>
+      <title>Contact us</title>
+      <link>/mailform/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/mailform/</guid>
+      <description>   Email address  Select a reason Suggestions Issues Cooperating in AFLIBER Other   Subject  Upload Files (Limit of 5 files. Max size of 5 Mb per file. Multiple files need to be added on a single upload).
+ Your message   Submit   </description>
+    </item>
+    
+    <item>
+      <title>Data currently unavailable</title>
+      <link>/restricted_access/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/restricted_access/</guid>
+      <description>Please check later, as we await publication of the database in a scientific journal.</description>
+    </item>
+    
+    <item>
+      <title>General Instructions</title>
+      <link>/collaborate/general_instructions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/collaborate/general_instructions/</guid>
+      <description>This section is still under construction  To collaborate in the further versions of AFLIBER, please use our contact form attaching .csv or .xlsx files with your contributions. If you need to upload large files send us an email directly to atlasfloraiberica@gmail.com
+Note that, depending on the case, several documents may be needed (if you want a new species to appear, not only the taxonomic information should be provided, but also its related distributional information).</description>
+    </item>
+    
+    <item>
+      <title>How to use the AFLIBER data in R</title>
+      <link>/usage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/usage/</guid>
+      <description>   afliber_dist &amp;lt;- read.csv(&amp;quot;../data_restricted/AFLIBER_Distributions.csv&amp;quot;) print(dim(afliber_dist)) ## [1] 1824549 3 print(head(afliber_dist)) ## Taxon UTM.cell References ## 1 Abies alba 30TXM89 999 ## 2 Abies alba 30TXM99 999 ## 3 Abies alba 30TXN27 6 ## 4 Abies alba 30TXN32 999 ## 5 Abies alba 30TXN33 999 ## 6 Abies alba 30TXN34 114_999 </description>
+    </item>
+    
+    <item>
+      <title>Meet our team</title>
+      <link>/about/team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/team/</guid>
+      <description>Ignacio Ramos-Gutierrez Universidad Autonoma de Madrid
+PhD Student        Juan Carlos Moreno Universidad Autonoma de Madrid
+Professor and Senior Botanist
+     Rafael Molina-Venegas Universidad de Alcala
+My research focuses on the ecological and evolutionary mechanisms that jointly shape plant assemblages at the community and macroecological scales. I am also interested in understanding the links between plant biodiversity and human well-being, with a particular focus on the role that evolution pays in this relationship.</description>
+    </item>
+    
+    <item>
+      <title>Methods used in gathering the AFLIBER database</title>
+      <link>/methods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/methods/</guid>
+      <description>    This section is under construction   </description>
+    </item>
+    
+  </channel>
+</rss>
