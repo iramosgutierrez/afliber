@@ -24,7 +24,7 @@ $(document).ready(function(){
     // Create active for selected nav-item
     var navItem = window.location.pathname;
     if(navItem.length > 3){
-        navItem = navItem.split("/")[1]
+        navItem = navItem.split("/")[2]
     }
     target = $('.navbar-item a[href*="' + navItem + '"]')[0];
     $(target).addClass('active');
