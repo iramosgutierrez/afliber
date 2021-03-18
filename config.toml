@@ -2,7 +2,7 @@ baseURL = "http://example.com/"
 languageCode = "en-us"
 title = "AFLIBER"
 theme = "minimal"
-disqusShortname = "atlasfloraiberica"
+disqusShortname = "iramosgutierrez-github-io-afliber"
 googleAnalytics = "UA-192550074-1"
 relativeURLS = true
 
