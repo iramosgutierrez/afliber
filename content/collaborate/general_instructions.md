@@ -4,8 +4,13 @@ title: General Instructions
 
 <h3 style="text-align: center">This section is still under construction <i class="fa fa-drafting-compass"></i></h3> 
 
-To collaborate in the further versions of AFLIBER, please send an email to 
-atlasfloraiberica@gmail.com attaching .csv or .xlsx files with your contributions. 
+To collaborate in the further versions of AFLIBER, please use our 
+<a href="/mailform/">contact form</a> 
+attaching .csv or .xlsx files with your contributions.
+__If you need to upload large files send us an email directly to 
+<a href="mailto:atlasfloraiberica@gmail.com" class="email">atlasfloraiberica@gmail.com</a>__
+
+
 Note that,
 depending on the case, several documents may be needed (if you want a new 
 species to appear, not only the taxonomic information should be provided, but 

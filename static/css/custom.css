@@ -1,3 +1,7 @@
+body {
+    font-size: 1.2rem;
+}
+
 h2 {
     text-align: center;
 }
@@ -11,7 +15,7 @@ pre {
 }
 
 .main-img {
-    width: 80%;
+    width: 70%;
     margin: auto
 }
 
@@ -24,7 +28,7 @@ pre {
     background-color: #f8f8f8;
 }
 
-.dropdown-item:active {
+.dropdown-item.active, .dropdown-item:active {
     background-color: #f8f8f8;
 }
 
@@ -33,6 +37,7 @@ pre {
     margin-bottom: 20px;
     border: 1px solid transparent;
     border-top: var(--border-width) solid var(--accent);
+    text-align: center;
 }
 
 .fixed-top {
@@ -51,6 +56,18 @@ pre {
 .navbar-item, .navbar-icon {
     padding-left: 0.7em;
     padding-right: 0.7em;
+}
+
+.navbar-icon {
+    font-size: 1rem;
+}
+
+.navbar-item {
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    font-size: 1.3rem;
 }
 
 a:link, a:visited {
