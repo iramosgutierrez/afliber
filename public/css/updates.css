@@ -1,0 +1,19 @@
+h2 {
+    text-align: center;
+}
+
+body {
+    text-align: center;
+}
+
+.update-a:link, .update-a:visited {
+    color: var(--accent);
+}
+
+.update-a:hover {
+    background-color: #f8f8f8;
+}
+
+.item-tag {
+    background-color: var(--accent);
+}
