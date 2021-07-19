@@ -82,8 +82,8 @@ This project was performed under the funding of the Spanish Ministry of Science,
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/collaborate/general_instructions/</guid>
-      <description>This section is still under construction  To collaborate in the further versions of AFLIBER, please use our contact form attaching .csv or .xlsx files with your contributions. If you need to upload large files send us an email directly to atlasfloraiberica@gmail.com
-Note that, depending on the case, several documents may be needed (if you want a new species to appear, not only the taxonomic information should be provided, but also its related distributional information).</description>
+      <description>To collaborate in the further versions of AFLIBER, please use our contact form attaching .csv or .xlsx files with your contributions. If you need to upload large files send us an email directly to atlasfloraiberica@gmail.com
+Note that, depending on the case, several documents may be needed (if you want a new species to appear, not only the taxonomic information should be provided, but also its related distributional information). Please consider to use the collaboration forms we provide to facilitate data homogenization, and formatting file titles with your name at the end.</description>
     </item>
     
     <item>
@@ -92,7 +92,8 @@ Note that, depending on the case, several documents may be needed (if you want a
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/usage/</guid>
-      <description>   afliber_dist &amp;lt;- read.csv(&amp;quot;../data_restricted/AFLIBER_Distributions.csv&amp;quot;) print(dim(afliber_dist)) ## [1] 1824549 3 print(head(afliber_dist)) ## Taxon UTM.cell References ## 1 Abies alba 30TXM89 999 ## 2 Abies alba 30TXM99 999 ## 3 Abies alba 30TXN27 6 ## 4 Abies alba 30TXN32 999 ## 5 Abies alba 30TXN33 999 ## 6 Abies alba 30TXN34 114_999 </description>
+      <description>  This is a simple example of how to import the database and respective format. New and more detailed material will be added in the future.
+afliber_dist &amp;lt;- read.csv(&amp;quot;../data_restricted/AFLIBER_Distributions.csv&amp;quot;) print(dim(afliber_dist)) ## [1] 1824549 3 print(head(afliber_dist)) ## Taxon UTM.cell References ## 1 Abies alba 30TXM89 999 ## 2 Abies alba 30TXM99 999 ## 3 Abies alba 30TXN27 6 ## 4 Abies alba 30TXN32 999 ## 5 Abies alba 30TXN33 999 ## 6 Abies alba 30TXN34 114_999 </description>
     </item>
     
     <item>
@@ -111,7 +112,7 @@ I am PhD student whose research consists in the application of new biogeographic
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/methods/</guid>
-      <description>This section is under construction  -- For a more detailed explanation of the methods, plese refer to our published article
+      <description>This section is under construction  -- For a more detailed explanation of the methods, please refer to our published article
 Species list compilation We extracted all native vascular plant species and subspecies described in the published volumes of Flora iberica so far Castroviejo (1986-2019), which cover all plant families but the Poaceae (two volumes, work in progress). To fill in this gap, we used the recent comprehensive monograph by Zarco (2015) on the Poaceae family, complemented with some generic treatments published in recent years and personal communications from experts that were involved in the elaboration of the ongoing FI Poaceae volumes (i.</description>
     </item>
     
