@@ -94,3 +94,6 @@ a:link, a:visited {
     visibility: hidden;
 }
 
+.csl-entry {
+    font-size: 0.7rem;
+}

@@ -13,4 +13,6 @@ distributional information can be added and updated.
 
 This project was performed under the funding of the Spanish Ministry of Science, Innovation and Universities through the Bioregions 2.0 project (CGL2017-86926-P).
 
+<!--
 <h3 style="text-align: center">This section is still under construction <i class="fa fa-drafting-compass"></i></h3>
+-->

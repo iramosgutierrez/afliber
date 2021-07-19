@@ -102,10 +102,7 @@ Note that, depending on the case, several documents may be needed (if you want a
       
       <guid>/about/team/</guid>
       <description>Ignacio Ramos-Gutierrez Universidad Autonoma de Madrid
-PhD Student        Juan Carlos Moreno Universidad Autonoma de Madrid
-Professor and Senior Botanist
-     Rafael Molina-Venegas Universidad de Alcala
-My research focuses on the ecological and evolutionary mechanisms that jointly shape plant assemblages at the community and macroecological scales. I am also interested in understanding the links between plant biodiversity and human well-being, with a particular focus on the role that evolution pays in this relationship.</description>
+I am PhD student whose research consists in the application of new biogeographical tools over Iberian Flora databases. Previously, I worked on the conservation status of the giant orchid (Himantoglossum robertianum) in Madrid and also on the phylogeography of Nepeta hispanica, a threatened plant of the Iberian Peninsula and Morroco.        Juan Carlos Moreno Universidad Autonoma de Madrid</description>
     </item>
     
     <item>
@@ -114,7 +111,8 @@ My research focuses on the ecological and evolutionary mechanisms that jointly s
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/methods/</guid>
-      <description>    This section is under construction   </description>
+      <description>This section is under construction  -- For a more detailed explanation of the methods, plese refer to our published article
+Species list compilation We extracted all native vascular plant species and subspecies described in the published volumes of Flora iberica so far Castroviejo (1986-2019), which cover all plant families but the Poaceae (two volumes, work in progress). To fill in this gap, we used the recent comprehensive monograph by Zarco (2015) on the Poaceae family, complemented with some generic treatments published in recent years and personal communications from experts that were involved in the elaboration of the ongoing FI Poaceae volumes (i.</description>
     </item>
     
   </channel>

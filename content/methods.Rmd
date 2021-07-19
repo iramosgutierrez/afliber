@@ -2,18 +2,47 @@
 title: "Methods used in gathering the AFLIBER database"
 highlightjs: true
 css: "/css/custom.css"
+bibliography: "ref.bib"
 ---
 
-
-<h3>This section is under construction <i class="fa fa-drafting-compass"></i></h3>
-
 <!--
-### Taxonomic treatment
-
-### Endemism
-
-### Distribution
-
-tatatatatt
-
+<h3>This section is under construction <i class="fa fa-drafting-compass"></i></h3>
 -->
+
+For a more detailed explanation of the methods, please refer to our [published
+article](#)
+
+### Species list compilation
+
+We extracted all native vascular plant species and subspecies described in 
+the published volumes of Flora iberica so far @castroviejoFI,
+which cover all plant families but the Poaceae (two volumes, work in 
+progress). To fill in this gap, we used the recent comprehensive monograph 
+by @zarco2015gramineas on the Poaceae family, complemented with some 
+generic treatments published in recent years and 
+personal communications from experts that were involved in the 
+elaboration of the ongoing FI Poaceae volumes 
+(i.e. Acedo, pers. com; Devesa, pers. com).
+
+Given the long-lasting duration of the FI project (over 30 years), 
+several taxa have subsequently been added to the Iberian-Balearic 
+floristic catalogue since the publication of their respective FI volumes,
+either because they went unnoticed at the time or because they were taxa 
+new to science. Therefore, we completed the initial species list (until 
+July 2020) following several steps:
+
+- A revision of the “new taxa” tab as recognized by the FI website 
+   (<a href="https://www.floraiberica.es/miscelania/nuevos_taxones.php" target="_blank">www.floraiberica.es/miscelania/nuevos_taxones.php</a>)
+- An exhaustive literature review of updated generic monographies and articles with newly recorded or described taxa for the study area (see Appendix 1- Supplementary References).  
+- A revision of the official “Spanish standard list of vascular flora” published by the Ministry of the Environment [@miteco].
+- A comparison with the recently published list of Iberian-Balearic endemics [@buira2021contribution] to seek for possible gaps in our search.
+
+The endemic status of the taxa is provided (distribution limited to the Iberian Peninsula and/or the Balearic Islands, following FI criterion), including a few Iberian species whose distributions slightly overstepped into the Pyrenean French northern slope and were also considered as endemics [@buira2021contribution; @saiz1992atlas].
+
+
+### Spatial distribution data
+
+Distributional information at 10-km resolution was compiled from non-digitized sources including atlases and research articles to an unpublished database carried out over 30 years. 
+Occurrence data below the 10-km resolution were upscaled to the 10-km grid, which represents the most detailed scale possible for the vast majority of the species.
+
+### References

@@ -3,6 +3,8 @@ title: "How to use the AFLIBER data in R"
 highlightjs: true
 ---
 
+This is a simple example of how to import the database and respective format. 
+New and more detailed material will be added in the future.
 
 ```{r floraiberica}
 
