@@ -32,10 +32,10 @@ This project was performed under the funding of the Spanish Ministry of Science,
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/download_data/</guid>
-      <description>    h2 { display:none }  AFLIBER Distribution dataset The AFLIBER distribution dataset contains information on the distribution of the iberian native flora.
- AFLIBER Distributions --  AFLIBER Checklist
+      <description>   h2 { display:none }  AFLIBER Distribution The AFLIBER distribution dataset contains information on the distribution of the iberian native flora.
+ AFLIBER Distributions
  AFLIBER Checklist The AFLIBER checklist contains taxonomic information relative to each taxa contained in the AFLIBER distribution dataset.
- AFLIBER Checklist --  AFLIBER Checklist
+ AFLIBER Checklist
  </description>
     </item>
     
@@ -93,7 +93,7 @@ Note that, depending on the case, several documents may be needed (if you want a
       
       <guid>/usage/</guid>
       <description>  This is a simple example of how to import the database and respective format. New and more detailed material will be added in the future.
-afliber_dist &amp;lt;- read.csv(&amp;quot;../data_restricted/AFLIBER_Distributions.csv&amp;quot;) print(dim(afliber_dist)) ## [1] 1824549 3 print(head(afliber_dist)) ## Taxon UTM.cell References ## 1 Abies alba 30TXM89 999 ## 2 Abies alba 30TXM99 999 ## 3 Abies alba 30TXN27 6 ## 4 Abies alba 30TXN32 999 ## 5 Abies alba 30TXN33 999 ## 6 Abies alba 30TXN34 114_999 </description>
+afliber_dist &amp;lt;- read.csv(&amp;quot;../static/database/AFLIBER_Distributions.csv&amp;quot;) print(dim(afliber_dist)) ## [1] 1824549 3 print(head(afliber_dist)) ## Taxon UTM.cell References ## 1 Abies alba 30TXM89 999 ## 2 Abies alba 30TXM99 999 ## 3 Abies alba 30TXN27 6 ## 4 Abies alba 30TXN32 999 ## 5 Abies alba 30TXN33 999 ## 6 Abies alba 30TXN34 114_999 </description>
     </item>
     
     <item>
@@ -112,7 +112,7 @@ I am PhD student whose research consists in the application of new biogeographic
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/methods/</guid>
-      <description>This section is under construction  -- For a more detailed explanation of the methods, please refer to our published article
+      <description>For a more detailed explanation of the methods, please refer to our published article.
 Species list compilation We extracted all native vascular plant species and subspecies described in the published volumes of Flora iberica so far Castroviejo (1986-2019), which cover all plant families but the Poaceae (two volumes, work in progress). To fill in this gap, we used the recent comprehensive monograph by Zarco (2015) on the Poaceae family, complemented with some generic treatments published in recent years and personal communications from experts that were involved in the elaboration of the ongoing FI Poaceae volumes (i.</description>
     </item>
     
