@@ -5,12 +5,8 @@ css: "/css/custom.css"
 bibliography: "ref.bib"
 ---
 
-<!--
-<h3>This section is under construction <i class="fa fa-drafting-compass"></i></h3>
--->
-
-For a more detailed explanation of the methods, please refer to our [published
-article](#)
+For a more detailed explanation of the methods, please refer to our 
+<a href="http://doi.org/10.1111/geb.13363" target="_blank">published article.</a>
 
 ### Species list compilation
 

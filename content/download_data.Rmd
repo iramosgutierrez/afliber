@@ -8,22 +8,16 @@ title: "AFLIBER Download"
     }
 </style>
 
-#### AFLIBER Distribution dataset
+#### AFLIBER Distribution 
 
 The AFLIBER distribution dataset contains information on the distribution
 of the iberian native flora.
 
-<!--
 <a href="/database/AFLIBER_Distributions.csv" download="AFLIBER_Distributions.csv"><i class="fa fa-download" aria-hidden="true"></i> AFLIBER Distributions</a> 
--->
-<a href="/restricted_access/"><i class="fa fa-download" aria-hidden="true"></i> AFLIBER Checklist</a> 
 
 #### AFLIBER Checklist
 
 The AFLIBER checklist contains taxonomic information relative to each 
 taxa contained in the AFLIBER distribution dataset.
 
-<!--
 <a href="/database/AFLIBER_Checklist.csv" download="AFLIBER_Checklist.csv"><i class="fa fa-download" aria-hidden="true"></i> AFLIBER Checklist</a> 
--->
-<a href="/restricted_access/"><i class="fa fa-download" aria-hidden="true"></i> AFLIBER Checklist</a> 

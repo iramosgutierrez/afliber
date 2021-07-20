@@ -8,7 +8,7 @@ New and more detailed material will be added in the future.
 
 ```{r floraiberica}
 
-afliber_dist <- read.csv("../data_restricted/AFLIBER_Distributions.csv")
+afliber_dist <- read.csv("../static/database/AFLIBER_Distributions.csv")
 print(dim(afliber_dist))
 print(head(afliber_dist))
 
