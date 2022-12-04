@@ -4,6 +4,7 @@
     <div class="intro">
         <h1>{{ .Site.Title }}</h1>
         <h2>{{ markdownify .Site.Params.Description }}</h2>
+        <h4>Visualize AFLIBER data interactively at <a href=https://afliber.shinyapps.io/afliber/>afliber.shinyapps.io/afliber</a></h4>
         {{ with .Content }} <div class="homepage-content text-justify">{{ . }}</div> {{ end }}
         {{ with .Site.Params.profilePic }} <img class="profile" src="{{ . }}"> {{ end }}
     </div>
