@@ -1,0 +1,15 @@
+---
+title: "AFLIBER - first version"
+---
+
+### Publication
+This work was published as a datapaper in 07/2021. Check it out [here](https://doi.org/10.1111/geb.13363) 
+
+### Authors
+The new paper has been coauthored by: \ 
+Ignacio Ramos-Gutiérrez, Herlander Lima, Santiago Pajarón, Carlos Romero-Zarco, Llorenç Sáez, Luciano Pataro, Rafael Molina-Venegas, Miguel Á. Rodríguez, Juan Carlos Moreno-Saiz
+
+
+### Data
+
+The new dataset incorporates 1,824,549 occurrences for 6,456 native species with a 10 x 10 km resolution.

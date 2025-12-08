@@ -3,32 +3,30 @@ title: ""
 engine: knitr
 ---
 
-AFLIBER Atlas of the Flora Iberica Database
+::::::: center-all
+![](files/logo_name.png){width="50%"} 
+<br> 
+[ AFLIBER ]{style="font-size: 4rem;"}
+<br> 
+[ Atlas of the Flora Iberica database]{style="font-size: 2rem;"}
+<br> <br> 
 
-To access the dataset head to [Dryad Digital Repository](https://doi.org/10.5061/dryad.gmsbcc2kv)
-
-
-:::: {.columns}
-
-::: {.column width="45%"}
-![](files/richness_v1.png)
-Access the datapaper
+:::::: columns
+::: {.column width="35%"}
+[![](files/richness_v1.png)](https://doi.org/10.1111/geb.13363) Read the compilation process of the dataset at [Global Ecology and Biogeography](https://doi.org/10.1111/geb.13363)
 :::
 
 ::: {.column width="10%"}
 <!-- empty column to create gap -->
 :::
 
-::: {.column width="45%"}
-![](files/logo_lookup.png)
+::: {.column width="35%"}
+[![](files/logo_lookup.png)](https://afliber.shinyapps.io/afliber)
 
-Visualize AFLIBER data interactively at [afliber.shinyapps.io/afliber](afliber.shinyapps.io/afliber)
+Visualize and download AFLIBER data interactively at the [AFLIBER Shinyapp](https://afliber.shinyapps.io/afliber)
 :::
+::::::
 
-::::
-
-
-Read the compilation process of the first version of this dataset at [Global Ecology and Biogeography] (<https://doi.org/10.1111/geb.13363>).
-
-
-
+<br><br>
+To access the dataset head to [Dryad Digital Repository](https://doi.org/10.5061/dryad.gmsbcc2kv)
+:::::::

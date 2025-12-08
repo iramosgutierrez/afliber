@@ -14,8 +14,8 @@ website:
     left:
       - href: index.qmd
         text: Home
-      # - href: miembros.qmd
-      #   text: Miembros
+      - href: news.qmd
+        text: Latest news
       - text: Updates
         menu: 
           - text: "AFLIBER v2 (2025)"
@@ -23,30 +23,34 @@ website:
           - text: "AFLIBER v1 (2021)"
             href: AFLIBER_v1.qmd
       - href: data_usage.qmd
-        text: "How to"
+        text: "Data use"
       - text: Collaborate
         menu:
-          - text: "I Jornadas de Ecoinformática"
-            href: jornadas.qmd
-          - text: "AEET 2023"
-            href: activ_AEET2023.qmd
-          - text: "AEET 2021"
-            href: activ_AEET2021.qmd
-          - text: "MEDECOS 2017"
-            href: activ_medecos2017.qmd
-          - text: "MEDECOS 2017 - Symposium"
-            href: activ_symposium_2017.qmd
+          - text: "Instructions" 
+            href: instructions.qmd
+          - text: "Contact mail form" 
+            href: mailform.qmd
+          - text: "About us"
+            href: team&more.qmd
     right:
-     - icon: envelope   # not added to bootstrap yet
-       href: mailform.qmd
+     - icon: envelope   
+       href: mailto:atlasfloraiberica@gmail.com
+       target: _blank
+     - icon: database-fill-down
+       href: https://doi.org/10.5061/dryad.gmsbcc2kv
+       target: _blank
+       
   page-footer: 
     center: 
-      - icon: bluesky   # not added to bootstrap yet
+      - icon: bluesky
         href: https://bsky.app/profile/iramosgutierrez.bsky.social
+        target: _blank
       - text : AFLIBER
         href: https://iramosgutierrez.github.io/afliber
+        target: _blank
       - icon: github
         href: https://github.com/iramosgutierrez/afliber
+        target: _blank
     background: rgba(51,153,103,255)
 
 format:

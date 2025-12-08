@@ -4,6 +4,76 @@
     "href": "index.html",
     "title": "",
     "section": "",
-    "text": "AFLIBER Atlas of the Flora Iberica Database\nTo access the dataset head to Dryad Digital Repository\n\n\n Access the datapaper\n\n\n\n\nVisualize AFLIBER data interactively at afliber.shinyapps.io/afliber\n\n\nRead the compilation process of the first version of this dataset at [Global Ecology and Biogeography] (https://doi.org/10.1111/geb.13363).\n\n\n\n Back to top"
+    "text": "AFLIBER  Atlas of the Flora Iberica database  \n\n\n Read the compilation process of the dataset at Global Ecology and Biogeography\n\n\n\n\nVisualize and download AFLIBER data interactively at the AFLIBER Shinyapp\n\n\n To access the dataset head to Dryad Digital Repository\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "LICENSE.html",
+    "href": "LICENSE.html",
+    "title": "",
+    "section": "",
+    "text": "MIT License\nCopyright (c) 2020 Herlander Lima\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "mailform.html",
+    "href": "mailform.html",
+    "title": "Contact us",
+    "section": "",
+    "text": "Email address \n\n\nSelect a reason  Suggestions Issues Cooperating in AFLIBER Other \n\n\nSubject \n\n\nUpload Files (Limit of 5 files. Max size of 5 Mb per file. Multiple files need to be added on a single upload). \n\n\nYour message\n\n\n\nSubmit\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "AFLIBER news",
+    "section": "",
+    "text": "??/2026 AFLIBER update is on the way…\n\n\n02/2025 AFLIBER shinyapp has new features\nMaps are now interactive, and geographic lookup is implemented. Learn more here.\n\n\n01/2022 AFLIBER shinyapp is now available!!\nLearn here how to use it\n\n\n07/2021 AFLIBER gets published at Global Ecology and Biogeography\nCheck here for more info!\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "news.html#afliber-shinyapp-has-new-features",
+    "href": "news.html#afliber-shinyapp-has-new-features",
+    "title": "AFLIBER news",
+    "section": "02/2025 AFLIBER shinyapp has new features",
+    "text": "02/2025 AFLIBER shinyapp has new features\nMaps are now interactive, and geographic lookup is implemented. Learn more here."
+  },
+  {
+    "objectID": "news.html#afliber-shinyapp-is-now-available",
+    "href": "news.html#afliber-shinyapp-is-now-available",
+    "title": "AFLIBER news",
+    "section": "01/2022 AFLIBER shinyapp is now available!!",
+    "text": "01/2022 AFLIBER shinyapp is now available!!\nLearn here how to use it"
+  },
+  {
+    "objectID": "news.html#afliber-gets-published-at-global-ecology-and-biogeography",
+    "href": "news.html#afliber-gets-published-at-global-ecology-and-biogeography",
+    "title": "AFLIBER news",
+    "section": "07/2021 AFLIBER gets published at Global Ecology and Biogeography",
+    "text": "07/2021 AFLIBER gets published at Global Ecology and Biogeography\nCheck here for more info!"
+  },
+  {
+    "objectID": "AFLIBER_v2.html",
+    "href": "AFLIBER_v2.html",
+    "title": "AFLIBER v2",
+    "section": "",
+    "text": "A paper has been submitted to Med Bot by XXXXX\n\n\n\nThe new paper has been coauthored by data curators, namely:   I. Ramos-Gutiérrez, et al. …\n\n\n\nThe new dataset incorporates XXX occurrences for XXX species"
+  },
+  {
+    "objectID": "AFLIBER_v2.html#afliber-v2",
+    "href": "AFLIBER_v2.html#afliber-v2",
+    "title": "AFLIBER v2",
+    "section": "",
+    "text": "A paper has been submitted to Med Bot by XXXXX\n\n\n\nThe new paper has been coauthored by data curators, namely:   I. Ramos-Gutiérrez, et al. …\n\n\n\nThe new dataset incorporates XXX occurrences for XXX species"
+  },
+  {
+    "objectID": "AFLIBER_v1.html",
+    "href": "AFLIBER_v1.html",
+    "title": "AFLIBER",
+    "section": "",
+    "text": "This work was published as a datapaper in 07/2021. Check it out here\n\n\n\nThe new paper has been coauthored by:   Ignacio Ramos-Gutiérrez, Herlander Lima, Santiago Pajarón, Carlos Romero-Zarco, Llorenç Sáez, Luciano Pataro, Rafael Molina-Venegas, Miguel Á. Rodríguez, Juan Carlos Moreno-Saiz\n\n\n\nThe new dataset incorporates 1,824,549 occurrences for 6,456 native species with a 10 x 10 km resolution."
+  },
+  {
+    "objectID": "AFLIBER_v1.html#afliber---first-version",
+    "href": "AFLIBER_v1.html#afliber---first-version",
+    "title": "AFLIBER",
+    "section": "",
+    "text": "This work was published as a datapaper in 07/2021. Check it out here\n\n\n\nThe new paper has been coauthored by:   Ignacio Ramos-Gutiérrez, Herlander Lima, Santiago Pajarón, Carlos Romero-Zarco, Llorenç Sáez, Luciano Pataro, Rafael Molina-Venegas, Miguel Á. Rodríguez, Juan Carlos Moreno-Saiz\n\n\n\nThe new dataset incorporates 1,824,549 occurrences for 6,456 native species with a 10 x 10 km resolution."
   }
 ]

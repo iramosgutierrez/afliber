@@ -1,8 +1,24 @@
 ```{=html}
 
+body {
+  font-family: "Sansation", sans-serif;
+}
+
+.center-all {
+  text-align: center;
+}
+
+/* Center block images too */
+.center-all img, 
+.center-all figure {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .navbar-logo img {
-  height: 200%;         /* fill navbar height */
-  max-height: 200%;     /* ensure no overflow */
+  height: 100%;         /* fill navbar height */
+  max-height: 100%;     /* ensure no overflow */
   width: auto;          /* keep proportions */
   object-fit: contain;  /* scale nicely */
 }
@@ -16,6 +32,12 @@
 .dropdown-item {
     color: #067e06 !important; /* Color del texto */
     background-color: #e6f2e6 !important; /* Fondo  */
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: #067e06 !important; 
+    color: white !important; 
 }
 
 </style>

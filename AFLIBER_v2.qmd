@@ -1,0 +1,15 @@
+---
+title: "AFLIBER v2"
+---
+
+### Publication
+A paper has been submitted XXXXX
+
+### Authors
+The new paper has been coauthored by data curators, namely: \ 
+I. Ramos-Gutiérrez, et al. ...
+
+
+### Data
+
+The new dataset incorporates XXX occurrences for XXX species
