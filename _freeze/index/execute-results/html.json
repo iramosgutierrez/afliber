@@ -1,0 +1,15 @@
+{
+  "hash": "2ea9a73f47284cb93c42c17be8d50752",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"\"\nengine: knitr\n---\n\n\n\n\nAFLIBER Atlas of the Flora Iberica Database\n\nTo access the dataset head to [Dryad Digital Repository](https://doi.org/10.5061/dryad.gmsbcc2kv)\n\n\n:::: {.columns}\n\n::: {.column width=\"45%\"}\n![](files/richness_v1.png)\nAccess the datapaper\n:::\n\n::: {.column width=\"10%\"}\n<!-- empty column to create gap -->\n:::\n\n::: {.column width=\"45%\"}\n![](files/logo_lookup.png)\n\nVisualize AFLIBER data interactively at [afliber.shinyapps.io/afliber](afliber.shinyapps.io/afliber)\n:::\n\n::::\n\n\nRead the compilation process of the first version of this dataset at [Global Ecology and Biogeography] (<https://doi.org/10.1111/geb.13363>).\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

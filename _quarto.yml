@@ -1,0 +1,62 @@
+project:
+  type: website
+  # output-dir: docs
+
+website:
+  title: ""
+  twitter-card: true
+  site-url: https://iramosgutierrez.github.io/afliber
+  back-to-top-navigation: true
+  favicon: "files/logo.png"
+  navbar:
+    title: false
+    logo: files/logo_name.png
+    left:
+      - href: index.qmd
+        text: Home
+      # - href: miembros.qmd
+      #   text: Miembros
+      - text: Updates
+        menu: 
+          - text: "AFLIBER v2 (2025)"
+            href: AFLIBER_v2.qmd
+          - text: "AFLIBER v1 (2021)"
+            href: AFLIBER_v1.qmd
+      - href: data_usage.qmd
+        text: "How to"
+      - text: Collaborate
+        menu:
+          - text: "I Jornadas de Ecoinformática"
+            href: jornadas.qmd
+          - text: "AEET 2023"
+            href: activ_AEET2023.qmd
+          - text: "AEET 2021"
+            href: activ_AEET2021.qmd
+          - text: "MEDECOS 2017"
+            href: activ_medecos2017.qmd
+          - text: "MEDECOS 2017 - Symposium"
+            href: activ_symposium_2017.qmd
+    right:
+     - icon: bluesky   # not added to bootstrap yet
+       href: https://bsky.app/profile/ecoinf-aeet.bsky.social
+  page-footer: 
+    center: 
+      - icon: bluesky   # not added to bootstrap yet
+        href: https://bsky.app/profile/iramosgutierrez.bsky.social
+      - text : AFLIBER
+        href: https://iramosgutierrez.github.io/afliber
+      - icon: github
+        href: https://github.com/iramosgutierrez/afliber
+    background: rgba(51,153,103,255)
+
+format:
+  html:
+    link-external-newwindow: true
+    theme: minty
+    css: styles.css
+    toc: true
+    linkcolor: rebeccapurple
+    page-layout: full
+
+execute:
+  freeze: auto

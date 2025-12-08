@@ -1,0 +1,22 @@
+```{=html}
+
+.navbar-logo img {
+  height: 200%;         /* fill navbar height */
+  max-height: 200%;     /* ensure no overflow */
+  width: auto;          /* keep proportions */
+  object-fit: contain;  /* scale nicely */
+}
+
+.navbar {
+    background-color: #abd6ab; 
+    color: #067e06 !important; /* Color del texto */
+}
+
+
+.dropdown-item {
+    color: #067e06 !important; /* Color del texto */
+    background-color: #e6f2e6 !important; /* Fondo  */
+}
+
+</style>
+```
