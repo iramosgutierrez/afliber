@@ -37,8 +37,8 @@ website:
           - text: "MEDECOS 2017 - Symposium"
             href: activ_symposium_2017.qmd
     right:
-     - icon: bluesky   # not added to bootstrap yet
-       href: https://bsky.app/profile/ecoinf-aeet.bsky.social
+     - icon: envelope   # not added to bootstrap yet
+       href: mailform.qmd
   page-footer: 
     center: 
       - icon: bluesky   # not added to bootstrap yet
