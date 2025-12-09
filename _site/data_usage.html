@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>AFLIBER news</title>
+<title>Accessing AFLIBER data</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -71,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="AFLIBER news">
+<meta name="twitter:title" content="Accessing AFLIBER data">
 <meta name="twitter:description" content="">
 <meta name="twitter:card" content="summary">
 </head>
@@ -98,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./news.html" aria-current="page"> 
+    <a class="nav-link" href="./news.html"> 
 <span class="menu-text">Latest news</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -117,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./data_usage.html"> 
+    <a class="nav-link active" href="./data_usage.html" aria-current="page"> 
 <span class="menu-text">Data use</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -162,20 +197,27 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#access-afliber-information-via-dryad-api" id="toc-access-afliber-information-via-dryad-api" class="nav-link active" data-scroll-target="#access-afliber-information-via-dryad-api">Access AFLIBER information via Dryad API</a></li>
+  <li><a href="#querying-afliber-data" id="toc-querying-afliber-data" class="nav-link" data-scroll-target="#querying-afliber-data">Querying AFLIBER data</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">AFLIBER news</h1>
+<h1 class="title">Accessing AFLIBER data</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -187,22 +229,131 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="afliber-update-is-on-the-way" class="level4">
-<h4 class="anchored" data-anchor-id="afliber-update-is-on-the-way">??/2026 AFLIBER update is on the way…</h4>
+<section id="download-afliber-data" class="level4">
+<h4 class="anchored" data-anchor-id="download-afliber-data">Download AFLIBER data</h4>
+<p>All the data versions are openly accessible here: <a href="https://doi.org/10.5061/dryad.gmsbcc2kv">Dryad Digital Repository</a></p>
+<p>Different versions include at least 4 separate files, namely:<br>
+</p>
+<ul>
+<li><strong>Species list file</strong>. Incorporates accepted list of taxa, their taxonomic classification, information about ther endemic status and more useful information. -</li>
+<li><strong>Distributions file</strong>. Occurrence records in a “long” format. The “References” column includes numeric references for the data sources citing the row’s species (in Taxon column) at the given grid cell (in the UTM10x10 one). Numeric references match those in the Data sources table.</li>
+<li><strong>Data sources file</strong>. Includes origins of distribution data, including a numeric reference (matching Distributions’ file), a text reference and a proper citation. May include also the number of occurrences incorporated to the dataset.</li>
+<li><strong>Eliminations file</strong>. Shows a record of distribution records included in the original data sources which have been identified as erroneous (manually or automatically).</li>
+</ul>
 </section>
-<section id="afliber-shinyapp-has-new-features" class="level4">
-<h4 class="anchored" data-anchor-id="afliber-shinyapp-has-new-features">02/2025 AFLIBER shinyapp has new features</h4>
-<p>Maps are now interactive, and geographic lookup is implemented. Learn more <a href="https://afliber.shinyapps.io/afliber">here</a>.</p>
+<section id="access-afliber-information-via-dryad-api" class="level3">
+<h3 class="anchored" data-anchor-id="access-afliber-information-via-dryad-api">Access AFLIBER information via Dryad API</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(rdryad)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>afliber_dryad <span class="ot">&lt;-</span> rdryad<span class="sc">::</span><span class="fu">dryad_download</span>(<span class="st">"10.5061/dryad.gmsbcc2kv"</span>)<span class="co"># specify AFLIBER's DOI</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>downloadpath <span class="ot">&lt;-</span> <span class="fu">dirname</span>(<span class="fu">unlist</span>(afliber_dryad)[<span class="dv">1</span>]) <span class="co">#Local download folder</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">list.files</span>(downloadpath) <span class="co"># See downloaded files</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "AFLIBER_Distributions.csv"                       
+[2] "AFLIBER_Species_list.csv"                        
+[3] "AFLIBER_Supplement_3_Disregarded_occurrences.csv"
+[4] "AFLIBER_Supplement_4b-AFLIBER_DataSources.csv"   
+[5] "README.txt"                                      </code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>checklist <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="fu">unlist</span>(afliber_dryad)[<span class="dv">2</span>])</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>distributions <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="fu">unlist</span>(afliber_dryad)[<span class="dv">1</span>])</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="fu">message</span>(<span class="st">"Species list structure:"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Species list structure:</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(checklist)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 6,456
+Columns: 11
+$ Taxon           &lt;chr&gt; "Abies alba", "Abies pinsapo", "Acer campestre", "Acer…
+$ Scientific_Name &lt;chr&gt; "Abies alba Mill.", "Abies pinsapo Boiss.", "Acer camp…
+$ Endemic         &lt;lgl&gt; FALSE, TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,…
+$ Genus           &lt;chr&gt; "Abies", "Abies", "Acer", "Acer", "Acer", "Acer", "Ace…
+$ Species         &lt;chr&gt; "alba", "pinsapo", "campestre", "monspessulanum", "opa…
+$ Subspecies      &lt;chr&gt; "", "", "", "monspessulanum", "granatense", "opalus", …
+$ Class           &lt;chr&gt; "Pinopsida", "Pinopsida", "Magnoliopsida", "Magnoliops…
+$ Order           &lt;chr&gt; "Pinales", "Pinales", "Sapindales", "Sapindales", "Sap…
+$ Family          &lt;chr&gt; "Pinaceae", "Pinaceae", "Sapindaceae", "Sapindaceae", …
+$ GBIF_id         &lt;chr&gt; "2685484", "2685464", "3189863", "7344624", "8013467",…
+$ POW_Name        &lt;chr&gt; "Abies alba", "Abies pinsapo", "Acer campestre", "Acer…</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">message</span>(<span class="st">"Distribution file structure:"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Distribution file structure:</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(distributions)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 1,824,549
+Columns: 3
+$ Taxon      &lt;chr&gt; "Abies alba", "Abies alba", "Abies alba", "Abies alba", "Ab…
+$ UTM.cell   &lt;chr&gt; "30TXM89", "30TXM99", "30TXN27", "30TXN32", "30TXN33", "30T…
+$ References &lt;chr&gt; "999", "999", "6", "999", "999", "114_999", "114", "6_12_11…</code></pre>
+</div>
+</div>
 </section>
-<section id="afliber-shinyapp-is-now-available" class="level4">
-<h4 class="anchored" data-anchor-id="afliber-shinyapp-is-now-available">01/2022 AFLIBER shinyapp is now available!!</h4>
-<p>Learn <a href="https://afliber.shinyapps.io/afliber">here</a> how to use it</p>
+<section id="querying-afliber-data" class="level3">
+<h3 class="anchored" data-anchor-id="querying-afliber-data">Querying AFLIBER data</h3>
+<section id="filter-datasets-by-taxonomic-group" class="level4">
+<h4 class="anchored" data-anchor-id="filter-datasets-by-taxonomic-group">Filter datasets by taxonomic group</h4>
+<p>As an example, here we will filter the dataset just to include species of the genus <em>Nepeta</em>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>checklist <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="fu">unlist</span>(afliber_dryad)[<span class="dv">2</span>], <span class="at">show_col_types =</span> F)</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>distributions <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="fu">unlist</span>(afliber_dryad)[<span class="dv">1</span>], <span class="at">show_col_types =</span> F)</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>taxa <span class="ot">&lt;-</span> checklist <span class="sc">|&gt;</span> </span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(Genus <span class="sc">==</span> <span class="st">"Nepeta"</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pull</span>(Taxon) </span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>Nepeta_AFLIBER <span class="ot">&lt;-</span> distributions <span class="sc">|&gt;</span> </span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(Taxon <span class="sc">%in%</span> taxa)</span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(Nepeta_AFLIBER)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 1,403
+Columns: 3
+$ Taxon      &lt;chr&gt; "Nepeta apuleji", "Nepeta apuleji", "Nepeta apuleji", "Nepe…
+$ UTM.cell   &lt;chr&gt; "29SQA44", "29SQA52", "29SQA61", "30STF44", "30STF45", "30S…
+$ References &lt;chr&gt; "114", "999", "999", "114_999", "999", "999", "999", "114",…</code></pre>
+</div>
+</div>
 </section>
-<section id="afliber-gets-published-at-global-ecology-and-biogeography" class="level4">
-<h4 class="anchored" data-anchor-id="afliber-gets-published-at-global-ecology-and-biogeography">07/2021 AFLIBER gets published at Global Ecology and Biogeography</h4>
-<p>Check <a href="https://doi.org/10.1111/geb.13363">here</a> for more info!</p>
+<section id="get-afliber-subset-citation-bibliography" class="level4">
+<h4 class="anchored" data-anchor-id="get-afliber-subset-citation-bibliography">Get AFLIBER subset citation bibliography</h4>
+<p>Using the <em>Nepeta</em> subset, we can retrieve the data sources where our data come from</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>sources <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="fu">unlist</span>(afliber_dryad)[<span class="dv">4</span>], <span class="at">show_col_types =</span> F,<span class="at">locale =</span> <span class="fu">locale</span>(<span class="at">encoding =</span> <span class="st">"Latin1"</span>))</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>bibliography <span class="ot">&lt;-</span> Nepeta_AFLIBER <span class="sc">|&gt;</span> </span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">separate_longer_delim</span>(References, <span class="at">delim =</span><span class="st">"_"</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">References =</span> <span class="fu">as.numeric</span>(References)) <span class="sc">|&gt;</span> </span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(sources, <span class="fu">join_by</span>(References <span class="sc">==</span> <span class="st">`</span><span class="at">NUMERIC REFERENCE</span><span class="st">`</span>)) <span class="sc">|&gt;</span> </span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(CITATION) <span class="sc">|&gt;</span> </span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pull</span>(CITATION) <span class="sc">|&gt;</span> </span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unique</span>()</span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a><span class="fu">message</span>(<span class="fu">paste0</span>(<span class="fu">head</span>(bibliography), <span class="at">collapse =</span> <span class="st">"</span><span class="sc">\n\n</span><span class="st">"</span>)) <span class="co">#Here we plot just the first ones!!</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Alonso Felpete, J.I., Gonza?lez Robinson, S., Ferna?ndez Rodri?guez, A., Sanzo Rodri?guez, I., Mora Cabello de Alba, A., Bueno Sa?nchez, A. &amp; Di?az Gonza?lez, T.E. (2011). Cata?logo flori?stico del Parque Nacional Picos de Europa. Jardi?n Bota?nico Atla?ntico de Gijo?n, Ayuntamiento de Gijo?n. ISBN 978-84-615-5846-9.
+
+Atlas de la Flora de Aragón, Instituto Pirenaico de Ecología y Gobierno de Aragón (Departamento de Medio Ambiente) http://floragon.ipe.csic.es/. Last accessed June, 2020.
+
+Banco de Datos de Biodiversidad Conselleria Dagricultura, Desenvolupament Rural, Emergència Climàtica i Transició Ecològica, Comunidad Valenciana. http://www.bdb.gva.es/. Last accessed October, 2019.
+
+Charco, J., Alcaraz, F., Carrillo, F.A. &amp; Rivera, D. (2015). Árboles y arbustos autóctonos de la Región de Murcia. Centro de Investigaciones Ambientales del Mediterráneo, Ciudad Real.
+
+Flora-On: Flora de Portugal Interactiva. Sociedade Portuguesa de Botânica. www.flora-on.pt. Last accessed April, 2020.
+
+IberBal-Flora. Database of the Iberian and Balearic vascular flora. Department of Biology, Autonomous University of Madrid.</code></pre>
+</div>
+</div>
 
 
+</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->

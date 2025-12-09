@@ -31,7 +31,7 @@ website:
           - text: "Contact mail form" 
             href: mailform.qmd
           - text: "About us"
-            href: team&more.qmd
+            href: team.qmd
     right:
      - icon: envelope   
        href: mailto:atlasfloraiberica@gmail.com

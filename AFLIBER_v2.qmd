@@ -3,13 +3,20 @@ title: "AFLIBER v2"
 ---
 
 ### Publication
-A paper has been submitted XXXXX
+A paper will be submitted soon.
 
 ### Authors
 The new paper has been coauthored by data curators, namely: \ 
-I. Ramos-Gutiérrez, et al. ...
 
+Ignacio Ramos-Gutiérrez, Carmen Acedo, Estrella Alfaro-Saiz, 
+Montserrat Arista, Juan Arroyo, Moisès Guardiola,
+Pedro Jiménez-Mejías, Rubén G. Mateo, Gonzalo Mateo,
+Javier Peralta, Andrés V. Pérez-Latorre, Carlos Romero-Zarco,
+Llorenç Sáez, Carlos Salazar-Mendías, Lluís Serra-Laliga, 
+Juan Carlos Moreno-Saiz
 
 ### Data
 
-The new dataset incorporates XXX occurrences for XXX species
+The updated dataset incorporates 1,942,750 occurrences (from a total of 3,129,863 distributional records) for 6,471 native taxa with a 10 x 10 km resolution.
+
+Access the updated version data here: [Dryad Digital Repository](https://doi.org/10.5061/dryad.gmsbcc2kv)
