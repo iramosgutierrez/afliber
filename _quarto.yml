@@ -42,7 +42,7 @@ website:
        
   page-footer: 
     center: 
-      - icon: bluesky
+      - icon: person-fill
         href: https://bsky.app/profile/iramosgutierrez.bsky.social
         target: _blank
       - text : AFLIBER
