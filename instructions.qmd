@@ -24,4 +24,9 @@ To do so, you can either \newline
 
 #### Include new data
 
-If you want us to include new data, please send us an email (see above) specifying a reference where to cite your data. Please include a DOI whenever possible.
+If you want to report the publication of a dataset to be included in AFLIBER, please **either**:
+
+-   a Fill [this automatic form](create_issue.html). **NOTE**: requires having a **GitHub** account, or
+-   b Fill a [contact form](mailform.html), or
+-   c Send us an [email](mailto:atlasfloraiberica@gmail.com)
+

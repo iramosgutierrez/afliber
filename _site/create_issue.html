@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>How to collaborate with AFLIBER</title>
+<title>Report new source of information</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="How to collaborate with AFLIBER">
+<meta name="twitter:title" content="Report new source of information">
 <meta name="twitter:description" content="">
 <meta name="twitter:card" content="summary">
 </head>
@@ -162,20 +162,26 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#via-github-issues" id="toc-via-github-issues" class="nav-link active" data-scroll-target="#via-github-issues">via GitHub issues</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">How to collaborate with AFLIBER</h1>
+<h1 class="title">Report new source of information</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -187,32 +193,18 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>There are several ways to collaborate with the compilation and cleaning of the AFLIBER database.</p>
-<section id="send-an-e-mail" class="level4">
-<h4 class="anchored" data-anchor-id="send-an-e-mail">Send an e-mail</h4>
-<p>If you need any kind of information, please do not hesitate to contact us at <a href="mailto:atlasfloraiberica@gmail.com">atlasfloraiberica@gmail.com</a>.</p>
-</section>
-<section id="predetermined-e-mail-form" class="level4">
-<h4 class="anchored" data-anchor-id="predetermined-e-mail-form">Predetermined e-mail form</h4>
-<p>If you prefer, you can email us directly from this website using our email form (click <a href="mailform.html">here</a> or in “Collaborate ➔ Contact mail form”)</p>
-</section>
-<section id="report-errors" class="level4">
-<h4 class="anchored" data-anchor-id="report-errors">Report errors</h4>
-<p>If you know distribution records mistakenly incorporated to AFLIBER, please report them!&nbsp;</p>
-<p>To do so, you can either </p>
-<ul>
-<li><p>fill in our elimination table template (download <a href="files/elimination_table.csv" download="elimination_table.csv">here</a>) (recommended for multiple eliminations), or </p></li>
-<li><p>report them one-by-one in the <a href="https://afliber.shinyapps.io/afliber">AFLIBER shinyapp</a> (recommended for few eliminations).</p></li>
-</ul>
-</section>
-<section id="include-new-data" class="level4">
-<h4 class="anchored" data-anchor-id="include-new-data">Include new data</h4>
-<p>If you want to report the publication of a dataset to be included in AFLIBER, please <strong>either</strong>:</p>
-<ul>
-<li>a Fill <a href="create_issue.html">this automatic form</a>. <strong>NOTE</strong>: requires having a <strong>GitHub</strong> account, or</li>
-<li>b Fill a <a href="mailform.html">contact form</a>, or</li>
-<li>c Send us an <a href="mailto:atlasfloraiberica@gmail.com">email</a></li>
-</ul>
+<section id="via-github-issues" class="level2">
+<h2 class="anchored" data-anchor-id="via-github-issues">via GitHub issues</h2>
+<p>Now you can report a new dataset is available for incorporation to AFLIBER through this form. This will redirect you to your GitHub account, and a new issue will be created. If you do not own a GitHub account, consider reporting via the <a href="mailform.html">collaboration form</a>.</p>
+<p>Please include the doi of the paper in the <strong>title</strong> box if possible, and a complete reference in the <strong>description</strong>. Please consider specifying a data repository (e.g.&nbsp;Dryad, Zenodo) where data are available if possible.</p>
+<form action="https://github.com/iramosgutierrez/AFLIBER_update/issues/new" method="get">
+<p><label for="title"><strong>New source of data (DOI/ref)</strong></label><br> <input type="text" id="title" name="title" style="width: 400px;"><br><br></p>
+<label for="body"><strong>Reference</strong></label><br>
+<textarea id="body" name="body" rows="6" cols="60"></textarea>
+<p><br><br></p>
+<p><!-- Optional preset label --> <input type="hidden" name="labels" value="new_data"></p>
+<p><button type="submit">Submit Issue</button></p>
+</form>
 
 
 </section>

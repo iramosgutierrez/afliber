@@ -88,7 +88,7 @@
     "href": "instructions.html",
     "title": "How to collaborate with AFLIBER",
     "section": "",
-    "text": "There are several ways to collaborate with the compilation and cleaning of the AFLIBER database.\n\nSend an e-mail\nIf you need any kind of information, please do not hesitate to contact us at atlasfloraiberica@gmail.com.\n\n\nPredetermined e-mail form\nIf you prefer, you can email us directly from this website using our email form (click here or in “Collaborate ➔ Contact mail form”)\n\n\nReport errors\nIf you know distribution records mistakenly incorporated to AFLIBER, please report them! \nTo do so, you can either \n\nfill in our elimination table template (download here) (recommended for multiple eliminations), or \nreport them one-by-one in the AFLIBER shinyapp (recommended for few eliminations).\n\n\n\nInclude new data\nIf you want us to include new data, please send us an email (see above) specifying a reference where to cite your data. Please include a DOI whenever possible.\n\n\n\n\n Back to top"
+    "text": "There are several ways to collaborate with the compilation and cleaning of the AFLIBER database.\n\nSend an e-mail\nIf you need any kind of information, please do not hesitate to contact us at atlasfloraiberica@gmail.com.\n\n\nPredetermined e-mail form\nIf you prefer, you can email us directly from this website using our email form (click here or in “Collaborate ➔ Contact mail form”)\n\n\nReport errors\nIf you know distribution records mistakenly incorporated to AFLIBER, please report them! \nTo do so, you can either \n\nfill in our elimination table template (download here) (recommended for multiple eliminations), or \nreport them one-by-one in the AFLIBER shinyapp (recommended for few eliminations).\n\n\n\nInclude new data\nIf you want to report the publication of a dataset to be included in AFLIBER, please either:\n\na Fill this automatic form. NOTE: requires having a GitHub account, or\nb Fill a contact form, or\nc Send us an email\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "team.html",
@@ -96,5 +96,26 @@
     "title": "Meet our team",
     "section": "",
     "text": "Ignacio Ramos-Gutiérrez, Herlander Lima, Santiago Pajarón, Carlos Romero-Zarco, Llorenç Sáez, Luciano Pataro, Rafael Molina-Venegas, Miguel Á. Rodríguez, Juan Carlos Moreno-Saiz\nIgnacio Ramos-Gutiérrez, Carmen Acedo, Estrella Alfaro-Saiz, Montserrat Arista, Juan Arroyo, Moisès Guardiola, Pedro Jiménez-Mejías, Rubén G. Mateo, Gonzalo Mateo, Javier Peralta, Andrés V. Pérez-Latorre, Carlos Romero-Zarco, Llorenç Sáez, Carlos Salazar-Mendías, Lluís Serra-Laliga, Juan Carlos Moreno-Saiz\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "create_issue.html",
+    "href": "create_issue.html",
+    "title": "Report new source of information",
+    "section": "",
+    "text": "Now you can report a new dataset is available for incorporation to AFLIBER through this form. This will redirect you to your GitHub account, and a new issue will be created. If you do not own a GitHub account, consider reporting via the collaboration form.\nPlease include the doi of the paper in the title box if possible, and a complete reference in the description. Please consider specifying a data repository (e.g. Dryad, Zenodo) where data are available if possible.\n\nNew source of data (DOI/ref) \nReference\n\n\n \nSubmit Issue"
+  },
+  {
+    "objectID": "create_issue.html#submit-a-github-issue",
+    "href": "create_issue.html#submit-a-github-issue",
+    "title": "Report new source of information",
+    "section": "",
+    "text": "Add new source of data \nReference\n\n\nAttach file (optional) \n \nSubmit Issue"
+  },
+  {
+    "objectID": "create_issue.html#via-github-issues",
+    "href": "create_issue.html#via-github-issues",
+    "title": "Report new source of information",
+    "section": "",
+    "text": "Now you can report a new dataset is available for incorporation to AFLIBER through this form. This will redirect you to your GitHub account, and a new issue will be created. If you do not own a GitHub account, consider reporting via the collaboration form.\nPlease include the doi of the paper in the title box if possible, and a complete reference in the description. Please consider specifying a data repository (e.g. Dryad, Zenodo) where data are available if possible.\n\nNew source of data (DOI/ref) \nReference\n\n\n \nSubmit Issue"
   }
 ]
