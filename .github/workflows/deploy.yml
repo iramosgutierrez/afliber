@@ -1,5 +1,0 @@
-- name: Checkout
-  uses: actions/checkout@v6.0.2
-
-- name: Deploy GitHub Pages site
-  uses: actions/deploy-pages@v4.0.5
