@@ -5,6 +5,8 @@ title: "AFLIBER news"
 
 #### ??/2026 AFLIBER update is on the way...
 
+#### 02/2026 Error reporting
+You can report errors using an implemented form.
 
 
 #### 02/2025 AFLIBER shinyapp has new features
