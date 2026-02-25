@@ -1,0 +1,66 @@
+project:
+  type: website
+  # output-dir: docs
+
+website:
+  title: ""
+  twitter-card: true
+  site-url: https://iramosgutierrez.github.io/afliber
+  back-to-top-navigation: true
+  favicon: "files/logo.png"
+  navbar:
+    title: false
+    logo: files/logo_name.png
+    left:
+      - href: index.qmd
+        text: Home
+      - href: news.qmd
+        text: Latest news
+      - text: Updates
+        menu: 
+          - text: "AFLIBER v2 (2025)"
+            href: AFLIBER_v2.qmd
+          - text: "AFLIBER v1 (2021)"
+            href: AFLIBER_v1.qmd
+      - href: data_usage.qmd
+        text: "Data use"
+      - text: Collaborate
+        menu:
+          - text: "Instructions" 
+            href: instructions.qmd
+          - text: "Contact mail form" 
+            href: mailform.qmd
+          - text: "About us"
+            href: team.qmd
+    right:
+     - icon: envelope   
+       href: mailto:atlasfloraiberica@gmail.com
+       target: _blank
+     - icon: database-fill-down
+       href: https://doi.org/10.5061/dryad.gmsbcc2kv
+       target: _blank
+       
+  page-footer: 
+    center: 
+      - icon: person-fill
+        href: https://bsky.app/profile/iramosgutierrez.bsky.social
+        target: _blank
+      - text : AFLIBER
+        href: https://iramosgutierrez.github.io/afliber
+        target: _blank
+      - icon: github
+        href: https://github.com/iramosgutierrez/afliber
+        target: _blank
+    background: rgba(51,153,103,255)
+
+format:
+  html:
+    link-external-newwindow: true
+    theme: minty
+    css: styles.css
+    toc: true
+    linkcolor: rebeccapurple
+    page-layout: full
+
+execute:
+  freeze: auto

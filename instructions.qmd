@@ -1,0 +1,32 @@
+---
+title: "How to collaborate with AFLIBER"
+---
+There are several ways to collaborate with the compilation and cleaning of the AFLIBER database.
+
+#### Send an e-mail
+If you need any kind of information, please do not hesitate to contact us at [atlasfloraiberica@gmail.com](mailto:atlasfloraiberica@gmail.com).
+
+
+#### Predetermined e-mail form
+
+If you prefer, you can email us directly from this website using our email form (click [here](mailform.html) or in "Collaborate ➔ Contact mail form")
+
+#### Report errors
+
+If you know distribution records mistakenly incorporated to AFLIBER, please report them!\ 
+
+To do so, you can either \newline 
+
+-   fill in our elimination table template (download [here](files/elimination_table.csv){download="elimination_table.csv"}) (recommended for multiple eliminations), or \newline
+
+-   report them one-by-one in the [AFLIBER shinyapp](https://afliber.shinyapps.io/afliber) (recommended for few eliminations).
+
+
+#### Include new data
+
+If you want to report the publication of a dataset to be included in AFLIBER, please **either**:
+
+-   a Fill [this automatic form](create_issue.html). **NOTE**: requires having a **GitHub** account, or
+-   b Fill a [contact form](mailform.html), or
+-   c Send us an [email](mailto:atlasfloraiberica@gmail.com)
+

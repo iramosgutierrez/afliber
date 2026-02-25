@@ -1,0 +1,15 @@
+{
+  "hash": "9e1705bea93ad28dc981041c8a02d7c6",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"\"\nengine: knitr\n---\n\n::::::: center-all\n![](files/logo_name.png){width=\"50%\"} \n<br> \n[ AFLIBER ]{style=\"font-size: 4rem;\"}\n<br> \n[ Atlas of the Flora Iberica database]{style=\"font-size: 2rem;\"}\n<br> <br> \n\n:::::: columns\n::: {.column width=\"35%\"}\n[![](files/richness_v1.png)](https://doi.org/10.1111/geb.13363) Read the compilation process of the dataset at [Global Ecology and Biogeography](https://doi.org/10.1111/geb.13363)\n:::\n\n::: {.column width=\"10%\"}\n<!-- empty column to create gap -->\n:::\n\n::: {.column width=\"35%\"}\n[![](files/logo_lookup.png)](https://afliber.shinyapps.io/afliber)\n\nVisualize and download AFLIBER data interactively at the [AFLIBER Shinyapp](https://afliber.shinyapps.io/afliber)\n:::\n::::::\n\n<br><br>\nTo access the dataset head to [Dryad Digital Repository](https://doi.org/10.5061/dryad.gmsbcc2kv)\n:::::::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

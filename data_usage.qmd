@@ -1,0 +1,83 @@
+---
+title: "Accessing AFLIBER data"
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, 
+                      warn.conflicts = F,
+                      quietly = T)
+```
+### Download AFLIBER data
+
+All the data versions are openly accessible here: [Dryad Digital Repository](https://doi.org/10.5061/dryad.gmsbcc2kv)
+
+Different versions include at least 4 separate files, namely:  \
+
+-   **Species list file**. Incorporates accepted list of taxa, their taxonomic classification, information about ther endemic status and more useful information. -
+-   **Distributions file**. Occurrence records in a "long" format. The "References" column includes numeric references for the data sources citing the row's species (in Taxon column) at the given grid cell (in the UTM10x10 one). Numeric references match those in the Data sources table.
+-   **Data sources file**. Includes origins of distribution data, including a numeric reference (matching Distributions' file), a text reference and a proper citation. May include also the number of occurrences incorporated to the dataset.
+-   **Eliminations file**. Shows a record of distribution records included in the original data sources which have been identified as erroneous (manually or automatically).
+
+
+### Access AFLIBER information via Dryad API
+
+```{r, message = F, warning=F}
+library(rdryad)
+library(tidyverse)
+
+afliber_dryad <- rdryad::dryad_download("10.5061/dryad.gmsbcc2kv")# specify AFLIBER's DOI
+downloadpath <- dirname(unlist(afliber_dryad)[1]) #Local download folder
+list.files(downloadpath) # See downloaded files
+```
+
+```{r, warning=F}
+checklist <- read.csv(unlist(afliber_dryad)[2])
+distributions <- read.csv(unlist(afliber_dryad)[1])
+
+message("Species list structure:")
+glimpse(checklist)
+
+message("Distribution file structure:")
+glimpse(distributions)
+```
+
+
+### Querying AFLIBER data
+
+#### Filter datasets by taxonomic group
+As an example, here we will filter the dataset just to include species of the genus *Nepeta*.
+
+
+```{r, warning=F}
+
+checklist <- read_csv(unlist(afliber_dryad)[2], show_col_types = F)
+distributions <- read_csv(unlist(afliber_dryad)[1], show_col_types = F)
+
+taxa <- checklist |> 
+  filter(Genus == "Nepeta") |> 
+  pull(Taxon) 
+
+Nepeta_AFLIBER <- distributions |> 
+  filter(Taxon %in% taxa)
+
+glimpse(Nepeta_AFLIBER)
+
+```
+
+
+#### Get AFLIBER subset citation bibliography
+Using the *Nepeta* subset, we can retrieve the data sources where our data come from
+```{r, warning=F}
+
+sources <- read_csv(unlist(afliber_dryad)[4], show_col_types = F,locale = locale(encoding = "Latin1"))
+
+bibliography <- Nepeta_AFLIBER |> 
+  separate_longer_delim(References, delim ="_") |> 
+  mutate(References = as.numeric(References)) |> 
+  left_join(sources, join_by(References == `NUMERIC REFERENCE`)) |> 
+  arrange(CITATION) |> 
+  pull(CITATION) |> 
+  unique()
+
+message(paste0(head(bibliography), collapse = "\n\n")) #Here we plot just the first ones!!
+
+```
