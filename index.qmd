@@ -4,11 +4,11 @@ engine: knitr
 ---
 
 ::::::: center-all
-![](files/logo_name.png){width="50%"} 
+![](files/logo_name.png){width="35%"} 
 <br> 
-[ AFLIBER ]{style="font-size: 4rem;"}
-<br> 
-[ Atlas of the Flora Iberica database]{style="font-size: 2rem;"}
+<!-- [ AFLIBER ]{style="font-size: 2.5rem;"} -->
+<!-- <br>  -->
+[ Atlas of the Flora Iberica database]{style="font-size: 1.5rem;"}
 <br> <br> 
 
 :::::: columns
